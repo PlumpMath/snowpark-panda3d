@@ -1,0 +1,4499 @@
+<CoordinateSystem> { y-up-left }
+
+<Texture> TextureMap1 { "maps/TextureMap1.tif"
+	<Scalar> format { rgb }
+	<Scalar> wrap { repeat }
+}
+
+<Group> Snowman {
+	<Transform> {
+		<Matrix4> { 
+			3.2808398950131235 0.0 0.0 0.0 
+			0.0 3.2808398950131235 0.0 0.0 
+			0.0 0.0 3.2808398950131235 0.0 
+			0.0 0.0 0.0 1.0 
+		}
+	}
+	<Group> Middle {
+		<Transform> {
+			<Matrix4> { 
+				1.0 0.0 0.0 0.0 
+				0.0 1.0 0.0 0.0 
+				0.0 0.0 1.0 0.0 
+				-0.0031 0.5812 -0.0206 1.0 
+			}
+		}
+		<VertexPool> Snowman.Middle.verts {
+			<Vertex> 0 { -0.010170560897257071 1.9068261025145925 -0.06758690292988549
+				<Normal> { 2.0664867309319217E-6 -3.2808398950131235 -8.37968672578971E-6 }
+				<UV> { 0.059441 0.0624998 }
+			}
+			<Vertex> 1 { 0.3155784843553082 2.0868916757150586 0.3807686387397486
+				<Normal> { 1.3684761023584 -2.5291034946917237 1.5794998157055673 }
+				<UV> { 0.0961775 0.0119362 }
+			}
+			<Vertex> 2 { -0.010169314244991838 2.0868916757150586 0.48660926939308485
+				<Normal> { 0.17871213661325885 -2.5291034946917237 2.082212390549227 }
+				<UV> { 0.059441 0.0 }
+			}
+			<Vertex> 3 { 0.51690004089373 2.0868949512327752 0.1036684687134475
+				<Normal> { 2.035527952074066 -2.529104472458206 0.4734644993865897 }
+				<UV> { 0.118882 0.0431863 }
+			}
+			<Vertex> 4 { 0.5168992586805439 2.0868949512327752 -0.23884467010110072
+				<Normal> { 1.9250819923996614 -2.5291011480521655 -0.8133989502125838 }
+				<UV> { 0.118882 0.0818134 }
+			}
+			<Vertex> 5 { 0.31557647993401905 2.0868949512327752 -0.5159439845817296
+				<Normal> { 1.0793286515033151 -2.5290972369862352 -1.7895885887421337 }
+				<UV> { 0.0961775 0.113063 }
+			}
+			<Vertex> 6 { -0.010171807549522304 2.0868949512327752 -0.6217864241030586
+				<Normal> { -0.17870693000673935 -2.529098996965904 -2.082218257148122 }
+				<UV> { 0.059441 0.125 }
+			}
+			<Vertex> 7 { -0.3359195939277414 2.0868949512327752 -0.5159425179320057
+				<Normal> { -1.3684733646122489 -2.529100561392276 -1.5795068556242415 }
+				<UV> { 0.0227046 0.113063 }
+			}
+			<Vertex> 8 { -0.5372444748722036 2.0868949512327752 -0.23884229901738058
+				<Normal> { -2.0355281476273626 -2.5291011480521655 -0.47348107252846866 }
+				<UV> { 0.0 0.0818134 }
+			}
+			<Vertex> 9 { -0.5372436926590176 2.0868949512327752 0.10367083979716764
+				<Normal> { -1.925086099018888 -2.52909977917909 0.813393230278661 }
+				<UV> { 0.0 0.0431863 }
+			}
+			<Vertex> 10 { -0.3359175895064522 2.0868916757150586 0.38077010538947237
+				<Normal> { -1.079323176011013 -2.529104668011503 1.7895817443767559 }
+				<UV> { 0.0227046 0.0119362 }
+			}
+			<Vertex> 11 { -0.010169314244991838 2.0868916757150586 0.48660926939308485
+				<Normal> { 0.17871213661325885 -2.5291034946917237 2.082212390549227 }
+				<UV> { 0.267617 0.974749 }
+			}
+			<Vertex> 12 { 0.5169012631018332 2.558325403005745 0.6578646288143368
+				<Normal> { 1.8588971747501004 -1.0222710884149306 2.502673488902295 }
+				<UV> { 0.318817 0.872348 }
+			}
+			<Vertex> 13 { -0.010168543490006777 2.558325403005745 0.8291257081695116
+				<Normal> { 0.032857204041886204 -1.0222804749731629 3.1173344593974237 }
+				<UV> { 0.267617 0.872348 }
+			}
+			<Vertex> 14 { 0.3155784843553082 2.0868916757150586 0.3807686387397486
+				<Normal> { 1.3684761023584 -2.5291034946917237 1.5794998157055673 }
+				<UV> { 0.318817 0.974749 }
+			}
+			<Vertex> 15 { 0.8426515977839473 2.558325403005745 0.20951090823477644
+				<Normal> { 2.97491182023146 -1.0222809638564043 0.9320687082183017 }
+				<UV> { 0.370017 0.872348 }
+			}
+			<Vertex> 16 { 0.51690004089373 2.0868949512327752 0.1036684687134475
+				<Normal> { 2.035527952074066 -2.529104472458206 0.4734644993865897 }
+				<UV> { 0.370017 0.974749 }
+			}
+			<Vertex> 17 { 0.84265032668752 2.558325403005745 -0.3446885762721535
+				<Normal> { 2.9546061525820435 -1.0222854615822239 -0.9945583507770629 }
+				<UV> { 0.421218 0.872348 }
+			}
+			<Vertex> 18 { 0.5168992586805439 2.0868949512327752 -0.23884467010110072
+				<Normal> { 1.9250819923996614 -2.5291011480521655 -0.8133989502125838 }
+				<UV> { 0.421218 0.974749 }
+			}
+			<Vertex> 19 { 0.5168980364724407 2.558325403005745 -0.7930408546461521
+				<Normal> { 1.8057491131654875 -1.0222760750239916 -2.541285878404232 }
+				<UV> { 0.472418 0.872348 }
+			}
+			<Vertex> 20 { 0.31557647993401905 2.0868949512327752 -0.5159439845817296
+				<Normal> { 1.0793286515033151 -2.5290972369862352 -1.7895885887421337 }
+				<UV> { 0.472418 0.974748 }
+			}
+			<Vertex> 21 { -0.010172578304507367 2.558325403005745 -0.9642962140674041
+				<Normal> { -0.0328446122429033 -1.022273532831137 -3.117337001590278 }
+				<UV> { 0.523617 0.872348 }
+			}
+			<Vertex> 22 { -0.010171807549522304 2.0868949512327752 -0.6217864241030586
+				<Normal> { -0.17870693000673935 -2.529098996965904 -2.082218257148122 }
+				<UV> { 0.523617 0.974748 }
+			}
+			<Vertex> 23 { -0.010171807549522304 2.0868949512327752 -0.6217864241030586
+				<Normal> { -0.17870693000673935 -2.529098996965904 -2.082218257148122 }
+				<UV> { 0.0116173 0.974748 }
+			}
+			<Vertex> 24 { -0.5372456970803068 2.558325403005745 -0.7930384591182699
+				<Normal> { -1.8588989347297689 -1.022276270577288 -2.5026699689429575 }
+				<UV> { 0.0628173 0.872348 }
+			}
+			<Vertex> 25 { -0.010172578304507367 2.558325403005745 -0.9642962140674041
+				<Normal> { -0.0328446122429033 -1.022273532831137 -3.117337001590278 }
+				<UV> { 0.0116173 0.872348 }
+			}
+			<Vertex> 26 { -0.3359195939277414 2.0868949512327752 -0.5159425179320057
+				<Normal> { -1.3684733646122489 -2.529100561392276 -1.5795068556242415 }
+				<UV> { 0.062817 0.974748 }
+			}
+			<Vertex> 27 { -0.8629927073563803 2.558325403005745 -0.34468473853870957
+				<Normal> { -2.9749122113380535 -1.0222788127701428 -0.9320700770913772 }
+				<UV> { 0.114017 0.872348 }
+			}
+			<Vertex> 28 { -0.5372444748722036 2.0868949512327752 -0.23884229901738058
+				<Normal> { -2.0355281476273626 -2.5291011480521655 -0.47348107252846866 }
+				<UV> { 0.114017 0.974748 }
+			}
+			<Vertex> 29 { -0.862991436259953 2.558325403005745 0.20951474596822042
+				<Normal> { -2.954611041414456 -1.0222781283336049 0.9945512130817403 }
+				<UV> { 0.165217 0.872348 }
+			}
+			<Vertex> 30 { -0.5372436926590176 2.0868949512327752 0.10367083979716764
+				<Normal> { -1.925086099018888 -2.52909977917909 0.813393230278661 }
+				<UV> { 0.165217 0.974748 }
+			}
+			<Vertex> 31 { -0.5372424704509144 2.558325403005745 0.657867024342219
+				<Normal> { -1.80575849972372 -1.0222741194910265 2.5412800118053367 }
+				<UV> { 0.216417 0.872348 }
+			}
+			<Vertex> 32 { -0.3359175895064522 2.0868916757150586 0.38077010538947237
+				<Normal> { -1.079323176011013 -2.529104668011503 1.7895817443767559 }
+				<UV> { 0.216417 0.974749 }
+			}
+			<Vertex> 33 { 0.5169012631018332 3.1410386358971984 0.6578646288143368
+				<Normal> { 1.8057655396423942 1.0222862437954099 2.5412700385872147 }
+				<UV> { 0.318817 0.769949 }
+			}
+			<Vertex> 34 { -0.010168543490006777 3.1410386358971984 0.8291257081695116
+				<Normal> { -0.03283923758276961 1.0222957281302905 3.117329570565011 }
+				<UV> { 0.267617 0.769949 }
+			}
+			<Vertex> 35 { 0.8426515977839473 3.1410386358971984 0.20951090823477644
+				<Normal> { 2.954607130348526 1.0222960214602352 0.9945447598229556 }
+				<UV> { 0.370017 0.769949 }
+			}
+			<Vertex> 36 { 0.84265032668752 3.1410386358971984 -0.3446885762721535
+				<Normal> { 2.9749034114397106 1.0222929903841393 -0.9320827880556503 }
+				<UV> { 0.421218 0.769949 }
+			}
+			<Vertex> 37 { 0.5168980364724407 3.1410386358971984 -0.7930408546461521
+				<Normal> { 1.8588787927402286 1.0222854615822239 -2.5026813110341553 }
+				<UV> { 0.472418 0.769949 }
+			}
+			<Vertex> 38 { -0.010172578304507367 3.1410386358971984 -0.9642962140674041
+				<Normal> { 0.03284075006529728 1.0222898615313953 -3.117331526097976 }
+				<UV> { 0.523617 0.769949 }
+			}
+			<Vertex> 39 { -0.5372456970803068 3.1410386358971984 -0.7930384591182699
+				<Normal> { -1.8057561530841617 1.0222886882116162 -2.5412757096328136 }
+				<UV> { 0.0628173 0.769949 }
+			}
+			<Vertex> 40 { -0.010172578304507367 3.1410386358971984 -0.9642962140674041
+				<Normal> { 0.03284075006529728 1.0222898615313953 -3.117331526097976 }
+				<UV> { 0.0116173 0.769949 }
+			}
+			<Vertex> 41 { -0.8629927073563803 3.1410386358971984 -0.34468473853870957
+				<Normal> { -2.9546120191809386 1.0222886882116162 -0.9945378176809296 }
+				<UV> { 0.114017 0.769949 }
+			}
+			<Vertex> 42 { -0.862991436259953 3.1410386358971984 0.20951474596822042
+				<Normal> { -2.9749049758660826 1.0222893726481541 0.9320818102891677 }
+				<UV> { 0.165217 0.769949 }
+			}
+			<Vertex> 43 { -0.5372424704509144 3.1410386358971984 0.657867024342219
+				<Normal> { -1.8588875926385715 1.022290448191285 2.5026727066891086 }
+				<UV> { 0.216417 0.769949 }
+			}
+			<Vertex> 44 { 0.3155784843553082 3.6124626832997078 0.3807686387397486
+				<Normal> { 1.0793361803052306 2.5290968458796423 1.7895850687827963 }
+				<UV> { 0.318817 0.667549 }
+			}
+			<Vertex> 45 { -0.010169314244991838 3.6124626832997078 0.48660926939308485
+				<Normal> { -0.17869941342690485 2.529098605859311 2.0822196260211974 }
+				<UV> { 0.267617 0.667549 }
+			}
+			<Vertex> 46 { 0.51690004089373 3.6124626832997078 0.1036684687134475
+				<Normal> { 1.9250919656177832 2.529096259219753 0.813390932527427 }
+				<UV> { 0.370017 0.667548 }
+			}
+			<Vertex> 47 { 0.5168992586805439 3.6124626832997078 -0.23884467010110072
+				<Normal> { 2.035528734287252 2.5290993880724972 -0.4734867924623915 }
+				<UV> { 0.421218 0.667549 }
+			}
+			<Vertex> 48 { 0.31557647993401905 3.6124626832997078 -0.5159439845817296
+				<Normal> { 1.3684652491504439 2.529096259219753 -1.5795211310148864 }
+				<UV> { 0.472418 0.667549 }
+			}
+			<Vertex> 49 { -0.010171807549522304 3.6124626832997078 -0.621783099697018
+				<Normal> { 0.1786974578939398 2.5290941081334912 -2.0822252970667963 }
+				<UV> { 0.523617 0.667549 }
+			}
+			<Vertex> 50 { -0.3359195939277414 3.6124626832997078 -0.5159425179320057
+				<Normal> { -1.0793262070871088 2.529096650326346 -1.7895911309349881 }
+				<UV> { 0.062817 0.667549 }
+			}
+			<Vertex> 51 { -0.010171807549522304 3.6124626832997078 -0.621783099697018
+				<Normal> { 0.1786974578939398 2.5290941081334912 -2.0822252970667963 }
+				<UV> { 0.0116173 0.667549 }
+			}
+			<Vertex> 52 { -0.5372444748722036 3.6124626832997078 -0.23884229901738058
+				<Normal> { -1.9250905967447076 2.529096259219753 -0.8133934258319575 }
+				<UV> { 0.114017 0.667549 }
+			}
+			<Vertex> 53 { -0.5372436926590176 3.6124626832997078 0.10367083979716764
+				<Normal> { -2.035532058693293 2.5290956725598632 0.47349363682776924 }
+				<UV> { 0.165217 0.667549 }
+			}
+			<Vertex> 54 { -0.3359175895064522 3.6124626832997078 0.38077010538947237
+				<Normal> { -1.3684630002875342 2.52909586811316 1.579523282101148 }
+				<UV> { 0.216417 0.667549 }
+			}
+			<Vertex> 55 { -0.010170560897257071 3.792541260794392 -0.06758690292988549
+				<Normal> { 2.0665182484443477E-6 3.2808398950131235 1.0330247884867556E-8 }
+				<UV> { 0.617072 0.641999 }
+			}
+			<Vertex> 56 { -0.010169314244991838 3.6124626832997078 0.48660926939308485
+				<Normal> { -0.17869941342690485 2.529098605859311 2.0822196260211974 }
+				<UV> { 0.617072 0.579499 }
+			}
+			<Vertex> 57 { 0.3155784843553082 3.6124626832997078 0.3807686387397486
+				<Normal> { 1.0793361803052306 2.5290968458796423 1.7895850687827963 }
+				<UV> { 0.653809 0.591435 }
+			}
+			<Vertex> 58 { 0.51690004089373 3.6124626832997078 0.1036684687134475
+				<Normal> { 1.9250919656177832 2.529096259219753 0.813390932527427 }
+				<UV> { 0.676513 0.622685 }
+			}
+			<Vertex> 59 { 0.5168992586805439 3.6124626832997078 -0.23884467010110072
+				<Normal> { 2.035528734287252 2.5290993880724972 -0.4734867924623915 }
+				<UV> { 0.676513 0.661312 }
+			}
+			<Vertex> 60 { 0.31557647993401905 3.6124626832997078 -0.5159439845817296
+				<Normal> { 1.3684652491504439 2.529096259219753 -1.5795211310148864 }
+				<UV> { 0.653809 0.692563 }
+			}
+			<Vertex> 61 { -0.010171807549522304 3.6124626832997078 -0.621783099697018
+				<Normal> { 0.1786974578939398 2.5290941081334912 -2.0822252970667963 }
+				<UV> { 0.617072 0.704499 }
+			}
+			<Vertex> 62 { -0.3359195939277414 3.6124626832997078 -0.5159425179320057
+				<Normal> { -1.0793262070871088 2.529096650326346 -1.7895911309349881 }
+				<UV> { 0.580336 0.692563 }
+			}
+			<Vertex> 63 { -0.5372444748722036 3.6124626832997078 -0.23884229901738058
+				<Normal> { -1.9250905967447076 2.529096259219753 -0.8133934258319575 }
+				<UV> { 0.557631 0.661312 }
+			}
+			<Vertex> 64 { -0.5372436926590176 3.6124626832997078 0.10367083979716764
+				<Normal> { -2.035532058693293 2.5290956725598632 0.47349363682776924 }
+				<UV> { 0.557631 0.622685 }
+			}
+			<Vertex> 65 { -0.3359175895064522 3.6124626832997078 0.38077010538947237
+				<Normal> { -1.3684630002875342 2.52909586811316 1.579523282101148 }
+				<UV> { 0.580336 0.591435 }
+			}
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 2 1 0 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 1 3 0 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 3 4 0 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 4 5 0 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 5 6 0 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 6 7 0 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 7 8 0 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 8 9 0 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 9 10 0 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 10 2 0 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 13 12 11 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 12 14 11 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 12 15 14 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 15 16 14 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 15 17 16 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 17 18 16 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 17 19 18 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 19 20 18 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 19 21 20 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 21 22 20 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 25 24 23 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 24 26 23 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 24 27 26 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 27 28 26 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 27 29 28 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 29 30 28 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 29 31 30 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 31 32 30 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 31 13 32 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 13 11 32 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 34 33 13 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 33 12 13 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 33 35 12 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 35 15 12 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 35 36 15 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 36 17 15 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 36 37 17 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 37 19 17 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 37 38 19 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 38 21 19 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 40 39 25 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 39 24 25 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 39 41 24 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 41 27 24 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 41 42 27 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 42 29 27 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 42 43 29 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 43 31 29 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 43 34 31 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 34 13 31 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 45 44 34 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 44 33 34 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 44 46 33 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 46 35 33 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 46 47 35 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 47 36 35 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 47 48 36 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 48 37 36 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 48 49 37 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 49 38 37 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 51 50 40 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 50 39 40 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 50 52 39 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 52 41 39 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 52 53 41 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 53 42 41 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 53 54 42 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 54 43 42 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 54 45 43 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 45 34 43 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 57 56 55 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 58 57 55 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 59 58 55 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 60 59 55 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 61 60 55 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 62 61 55 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 63 62 55 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 64 63 55 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 65 64 55 <Ref> { Snowman.Middle.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 56 65 55 <Ref> { Snowman.Middle.verts } }
+		}
+		<Group> RightArm {
+			<Transform> {
+				<Matrix4> { 
+					1.0 0.0 0.0 0.0 
+					0.0 1.0 0.0 0.0 
+					0.0 0.0 1.0 0.0 
+					0.2002 0.2432 -0.0017 1.0 
+				}
+			}
+			<VertexPool> Snowman.Middle.RightArm.verts {
+				<Vertex> 0 { 0.6466522233223352 3.0435434242715362 -0.19282430954023297
+					<Normal> { -1.2559306824926944 -2.11093369431383 -2.1749729011941143 }
+					<UV> { 0.59168 0.729725 }
+				}
+				<Vertex> 1 { 1.516193204977381 2.9219685998253935 -0.05376785148785809
+					<Normal> { -0.7754282199648109 -3.130354788985465 0.6029107595679015 }
+					<UV> { 0.748035 0.707864 }
+				}
+				<Vertex> 2 { 0.6466524188756317 3.006873465663805 -0.10855263916487144
+					<Normal> { -2.221846244153701 -2.169198799008147 1.0591914530188393 }
+					<UV> { 0.59168 0.723131 }
+				}
+				<Vertex> 3 { 1.5161930094240845 2.949540783531397 -0.11713071895905054
+					<Normal> { -0.6375740969118484 -1.5791491886449298 -2.8042287964207606 }
+					<UV> { 0.748035 0.712822 }
+				}
+				<Vertex> 4 { 1.5161933027540293 2.9737140065024845 -0.007964050617274338
+					<Normal> { -0.4935550584098486 -0.24896097953707527 3.2339344813129096 }
+					<UV> { 0.748035 0.717169 }
+				}
+				<Vertex> 5 { 0.6466525655406041 3.075689061811277 -0.0476340076243236
+					<Normal> { -2.096461381499223 0.3600831869549639 2.497819269423097 }
+					<UV> { 0.59168 0.735505 }
+				}
+				<Vertex> 6 { 1.516193204977381 3.0332612319411885 -0.04301982370554775
+					<Normal> { -0.16950680739845192 2.911908459162775 1.5019877689091239 }
+					<UV> { 0.748035 0.727876 }
+				}
+				<Vertex> 7 { 0.6466524677639558 3.1548918135209973 -0.09425802318638392
+					<Normal> { -0.8739193710755175 3.1133827183816063 0.5540969901353981 }
+					<UV> { 0.59168 0.749747 }
+				}
+				<Vertex> 8 { 1.5161930094240845 3.018323600057542 -0.11048701570767744
+					<Normal> { -0.6109000894967027 2.2600153143324566 -2.2984871010142047 }
+					<UV> { 0.748035 0.72519 }
+				}
+				<Vertex> 9 { 0.6466522722106594 3.135023060824302 -0.18399226712429617
+					<Normal> { -2.3986584949368255 1.0436505392154685 -1.980187542482311 }
+					<UV> { 0.59168 0.746174 }
+				}
+				<Vertex> 10 { 1.5186637275488046 2.922080138536889 -0.05383019632320079
+					<Normal> { -2.396081493595454 -2.1458978415161294 -0.6463957994472324 }
+					<UV> { 0.748479 0.707884 }
+				}
+				<Vertex> 11 { 1.5716688396736707 2.916791448521176 -0.09784934725465737
+					<Normal> { 0.0881219070082105 -2.999001835274884 -1.3274539095836049 }
+					<UV> { 0.75801 0.706933 }
+				}
+				<Vertex> 12 { 1.5389098492194349 2.961269776925953 -6.412640996179568E-4
+					<Normal> { -1.435677992703095 0.26641501568433806 2.937986273465194 }
+					<UV> { 0.75212 0.714931 }
+				}
+				<Vertex> 13 { 1.6044282212344994 2.9802035159795617 -0.011786427016411555
+					<Normal> { 1.0642467012868466 1.4366865588298308 2.7508581951847226 }
+					<UV> { 0.763901 0.718335 }
+				}
+				<Vertex> 14 { 1.8375031109557067 2.254557152041613 0.36235347922079836
+					<Normal> { 1.0365851008360154 -2.6808507016950394 1.581910987851501 }
+					<UV> { 0.805811 0.587855 }
+				}
+				<Vertex> 15 { 1.6246708229457925 2.952713366881443 -0.0718652090923054
+					<Normal> { 2.479027379841942 -2.008685328829007 0.7638829488923231 }
+					<UV> { 0.767541 0.713392 }
+				}
+				<Vertex> 16 { 1.9974721607573704 3.1309580944498068 -0.3521908596353581
+					<Normal> { -0.7255237031327145 2.5210558898805635 -1.9702293819642756 }
+					<UV> { 0.834575 0.745443 }
+				}
+				<Vertex> 17 { 1.9906809858762688 3.1458826242625872 -0.2900484463987075
+					<Normal> { 0.7145259324021227 2.980598118987296 1.1702134149281058 }
+					<UV> { 0.833354 0.748127 }
+				}
+				<Vertex> 18 { 1.9796965616581637 3.0696851356135895 -0.3599565499254412
+					<Normal> { -1.2223492926499975 -0.5947402495098865 -2.9859768124077264 }
+					<UV> { 0.831379 0.734425 }
+				}
+				<Vertex> 19 { 2.016100763335942 3.0258596863333636 -0.3341594034918337
+					<Normal> { -0.48788010174521 -3.0460226254200373 -1.1169740299540243 }
+					<UV> { 0.837925 0.726545 }
+				}
+				<Vertex> 20 { 2.048226845546032 3.0753314437202897 -0.24851314621803955
+					<Normal> { 1.4046137648930388 -0.985187632361735 2.7964934902241225 }
+					<UV> { 0.843702 0.735441 }
+				}
+				<Vertex> 21 { 2.0680792206541447 3.0438878914033336 -0.3009344339761834
+					<Normal> { 0.5571525592816471 -2.881266626473174 1.4668995431401912 }
+					<UV> { 0.847272 0.729787 }
+				}
+				<Vertex> 22 { 2.780634366934068 2.7864338244235736 -0.5086788407617353
+					<Normal> { 0.3080812876853417 -3.0700926940272173 -1.1151361222968015 }
+					<UV> { 0.975399 0.683493 }
+				}
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 2 1 0 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 1 3 0 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 5 4 2 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 4 1 2 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 7 6 5 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 6 4 5 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 9 8 7 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 8 6 7 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 0 3 9 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 3 8 9 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 9 7 5 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 9 5 2 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 9 2 0 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 1 10 3 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 11 3 10 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 4 12 1 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 10 1 12 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 6 13 4 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 12 4 13 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 13 14 12 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 15 14 13 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 12 14 10 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 10 14 11 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 11 14 15 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 8 16 6 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 17 6 16 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 3 18 8 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 16 8 18 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 11 19 3 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 18 3 19 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 6 17 13 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 20 13 17 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 13 20 15 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 21 15 20 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 15 21 11 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 19 11 21 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 16 22 17 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 20 22 21 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 17 22 20 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 18 22 16 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 19 22 18 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 21 22 19 <Ref> { Snowman.Middle.RightArm.verts } }
+			}
+		}
+
+		<Group> LeftArm {
+			<Transform> {
+				<Matrix4> { 
+					1.0 0.0 0.0 0.0 
+					0.0 1.0 0.0 0.0 
+					0.0 0.0 1.0 0.0 
+					-0.192 0.3668 -0.0017 1.0 
+				}
+			}
+			<VertexPool> Snowman.Middle.LeftArm.verts {
+				<Vertex> 0 { -0.6870361434349551 2.921542823607997 -0.1085603390759214
+					<Normal> { 1.8064304208505186 -2.5812155149114413 0.9154494157613419 }
+					<UV> { 0.983314 0.428279 }
+				}
+				<Vertex> 1 { -1.300684294519149 2.9020940093934695 -0.05377220865974589
+					<Normal> { 0.3821115080374745 -3.2058637833657855 0.5833862784497068 }
+					<UV> { 0.872971 0.424781 }
+				}
+				<Vertex> 2 { -0.675402482272446 2.956323004046607 -0.192832033895445
+					<Normal> { 0.9536266014019023 -2.376651513607796 -2.050861872713084 }
+					<UV> { 0.985405 0.434533 }
+				}
+				<Vertex> 3 { -1.291937782226272 2.928242296215118 -0.1171350944640599
+					<Normal> { -0.07656535495493043 -1.519053216212065 -2.906978756111125 }
+					<UV> { 0.874544 0.429483 }
+				}
+				<Vertex> 4 { -0.665208533367147 2.9868085774302173 -0.04764175031265718
+					<Normal> { 2.100990982506219 -0.2965611452114551 2.502358843648215 }
+					<UV> { 0.987238 0.440014 }
+				}
+				<Vertex> 5 { -1.284273461876266 2.9511655302928506 -0.007968444455405234
+					<Normal> { 0.5714301987895816 -0.41973916447068765 3.203310443973291 }
+					<UV> { 0.875922 0.433605 }
+				}
+				<Vertex> 6 { -0.640090543532309 3.061923409697265 -0.09426582087408214
+					<Normal> { 1.0844958540335727 3.028815499753777 0.6434717887812087 }
+					<UV> { 0.991755 0.453521 }
+				}
+				<Vertex> 7 { -1.2653857511798228 3.0076418967619345 -0.04302426032096226
+					<Normal> { 0.5757087582521865 2.8352361182215335 1.5472256018733728 }
+					<UV> { 0.879318 0.44376 }
+				}
+				<Vertex> 8 { -0.6463899507610191 3.0430782562869743 -0.1840000648119944
+					<Normal> { 2.4672054008548967 0.3056194427914507 -2.140888939379394 }
+					<UV> { 0.990622 0.450132 }
+				}
+				<Vertex> 9 { -1.2701234208943024 2.9934719582320515 -0.1104914401010109
+					<Normal> { 0.34303526611622237 2.1604773175372225 -2.4451125716287008 }
+					<UV> { 0.878467 0.441212 }
+				}
+				<Vertex> 10 { -1.302990747874803 2.9029831169002014 -0.05383454127300756
+					<Normal> { 0.5476661710914351 -3.234533461060111 0.04203332859406791 }
+					<UV> { 0.872557 0.424941 }
+				}
+				<Vertex> 11 { -1.3549395788685856 2.9147744551301007 -0.09785345387388403
+					<Normal> { -0.9958571179958153 -2.9987695179586336 -0.8829270447958799 }
+					<UV> { 0.863216 0.427061 }
+				}
+				<Vertex> 12 { -1.3097622696496058 2.946569074502611 -6.455540500600833E-4
+					<Normal> { 1.1747517180567963 -0.3358085207113131 3.0448483278745115 }
+					<UV> { 0.871339 0.432779 }
+				}
+				<Vertex> 13 { -1.3658941812089735 2.9853026703821395 -0.011787160341273457
+					<Normal> { 0.04517572034844576 1.8313337420541158 2.72178020220729 }
+					<UV> { 0.861246 0.439743 }
+				}
+				<Vertex> 14 { -2.1086985869357595 2.831201612792929 0.36235167035280563
+					<Normal> { -2.5950665549030454 -1.214341678487973 1.5984099172544606 }
+					<UV> { 0.72768 0.412034 }
+				}
+				<Vertex> 15 { -1.3938143031177872 2.965653719590718 -0.07186911404719504
+					<Normal> { -2.676427481681343 -1.6694455322005306 0.9019976956012056 }
+					<UV> { 0.856225 0.43621 }
+				}
+				<Vertex> 16 { -2.233040368306668 3.3726747332047915 -0.29434426343972914
+					<Normal> { 1.1704438744880397 2.31798552465564 -2.0052220799478646 }
+					<UV> { 0.705322 0.509398 }
+				}
+				<Vertex> 17 { -2.2218658662843582 3.3846793100824506 -0.23220192353556476
+					<Normal> { 0.32825405242561984 3.0105187511193785 1.2621159354845684 }
+					<UV> { 0.707331 0.511557 }
+				}
+				<Vertex> 18 { -2.2356126763689237 3.30895422930949 -0.30211000261813636
+					<Normal> { 0.616533735527454 -0.7937635903752696 -3.123097219492194 }
+					<UV> { 0.704859 0.49794 }
+				}
+				<Vertex> 19 { -2.284037636959647 3.2789148963264285 -0.2763093851135159
+					<Normal> { -0.6556661012448038 -2.97514531086749 -1.2175894276363644 }
+					<UV> { 0.696152 0.492539 }
+				}
+				<Vertex> 20 { -2.298814426256916 3.3360441296979824 -0.19066630558078998
+					<Normal> { -1.3863563224712383 -0.8407527497747126 2.8522029088863863 }
+					<UV> { 0.693494 0.502811 }
+				}
+				<Vertex> 21 { -2.3276170801928666 3.312497557265552 -0.2430874955622856
+					<Normal> { -1.2950938478542438 -2.5104768476461174 1.6685768844574456 }
+					<UV> { 0.688315 0.498577 }
+				}
+				<Vertex> 22 { -2.780764129843925 3.3892691903930947 -0.5086769830054185
+					<Normal> { -2.1397443659349378 -1.9571589907323281 -1.5345794635181977 }
+					<UV> { 0.606834 0.512382 }
+				}
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 2 1 0 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 2 3 1 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 0 5 4 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 0 1 5 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 4 7 6 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 4 5 7 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 6 9 8 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 6 7 9 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 8 3 2 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 8 9 3 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 4 6 8 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 0 4 8 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 2 0 8 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 3 10 1 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 10 3 11 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 1 12 5 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 12 1 10 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 5 13 7 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 13 5 12 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 12 14 13 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 13 14 15 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 10 14 12 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 11 14 10 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 15 14 11 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 7 16 9 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 16 7 17 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 9 18 3 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 18 9 16 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 3 19 11 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 19 3 18 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 13 17 7 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 17 13 20 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 15 20 13 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 20 15 21 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 11 21 15 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 21 11 19 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 17 22 16 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 21 22 20 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 20 22 17 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 16 22 18 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 18 22 19 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 19 22 21 <Ref> { Snowman.Middle.LeftArm.verts } }
+			}
+		}
+
+	}
+
+	<Group> Head {
+		<Transform> {
+			<Matrix4> { 
+				1.0 0.0 0.0 0.0 
+				0.0 1.0 0.0 0.0 
+				0.0 0.0 1.0 0.0 
+				0.0 0.845 0.0 1.0 
+			}
+		}
+		<VertexPool> Snowman.Head.verts {
+			<Vertex> 0 { -0.010229810782686229 3.4788877710582704 -0.06754590525949408
+				<Normal> { 2.8647070833900034E-6 -3.2808398950131235 1.0642455012909434E-6 }
+				<UV> { 0.260611 0.241392 }
+			}
+			<Vertex> 1 { 0.23620467134348053 3.6151181173136853 0.2716431575106198
+				<Normal> { 1.3684689646630777 -2.529097823646125 1.5795153621926397 }
+				<UV> { 0.300311 0.186749 }
+			}
+			<Vertex> 2 { -0.010228867390806595 3.6151181173136853 0.3517159013923385
+				<Normal> { 0.17871118329093838 -2.52909977917909 2.0822172793816396 }
+				<UV> { 0.260611 0.17385 }
+			}
+			<Vertex> 3 { 0.3885106474474033 3.6151181173136853 0.062013561947373896
+				<Normal> { 2.0355240410081357 -2.5291036902450204 0.47348508137104706 }
+				<UV> { 0.324847 0.22052 }
+			}
+			<Vertex> 4 { 0.3885100607875138 3.6151181173136853 -0.19710389970559775
+				<Normal> { 1.9250831657194403 -2.5290984103060143 -0.8134046701465066 }
+				<UV> { 0.324847 0.262264 }
+			}
+			<Vertex> 5 { 0.23620315580543258 3.6151181173136853 -0.40673609246106285
+				<Normal> { 1.0793321714626523 -2.5290907837274506 -1.789595628660808 }
+				<UV> { 0.300311 0.296035 }
+			}
+			<Vertex> 6 { -0.010230754174565862 3.6151181173136853 -0.4868077363554887
+				<Normal> { -0.1787046322555054 -2.5290919570472297 -2.0822268614931683 }
+				<UV> { 0.260611 0.308935 }
+			}
+			<Vertex> 7 { -0.2566675638432891 3.6151181173136853 -0.40673496802960796
+				<Normal> { -1.368476786794938 -2.5290937170268983 -1.5795149710860465 }
+				<UV> { 0.22091 0.296035 }
+			}
+			<Vertex> 8 { -0.4089735399472119 3.6151181173136853 -0.1971021030596861
+				<Normal> { -2.0355330364597752 -2.5290972369862352 -0.47348102364014455 }
+				<UV> { 0.196374 0.262264 }
+			}
+			<Vertex> 9 { -0.4089729532873224 3.6151181173136853 0.06201535859328555
+				<Normal> { -1.9250823835062543 -2.529098605859311 0.8134058434662856 }
+				<UV> { 0.196374 0.22052 }
+			}
+			<Vertex> 10 { -0.25666604830524115 3.6151181173136853 0.2716442819420747
+				<Normal> { -1.0793184827318967 -2.5290984103060143 1.7895930864679532 }
+				<UV> { 0.22091 0.186749 }
+			}
+			<Vertex> 11 { -0.010228867390806595 3.6151181173136853 0.3517159013923385
+				<Normal> { 0.17871118329093838 -2.52909977917909 2.0822172793816396 }
+				<UV> { 0.730943 0.327595 }
+			}
+			<Vertex> 12 { 0.38851157632556177 3.971765090630749 0.481275386932328
+				<Normal> { 1.8588911125979086 -1.0222844838157414 2.5026725111358123 }
+				<UV> { 0.782143 0.225194 }
+			}
+			<Vertex> 13 { -0.010228284550317395 3.971765090630749 0.610836632451986
+				<Normal> { 0.032854007967696414 -1.0222875148918373 3.117332308311162 }
+				<UV> { 0.730943 0.225194 }
+			}
+			<Vertex> 14 { 0.23620467134348053 3.6151181173136853 0.2716431575106198
+				<Normal> { 1.3684689646630777 -2.529097823646125 1.5795153621926397 }
+				<UV> { 0.782143 0.327595 }
+			}
+			<Vertex> 15 { 0.6349511405457975 3.971765090630749 0.14208518750867818
+				<Normal> { 2.9749053669726755 -1.0222910348511745 0.9320785836597754 }
+				<UV> { 0.833343 0.225194 }
+			}
+			<Vertex> 16 { 0.3885106474474033 3.6151181173136853 0.062013561947373896
+				<Normal> { 2.0355240410081357 -2.5291036902450204 0.47348508137104706 }
+				<UV> { 0.833343 0.327595 }
+			}
+			<Vertex> 17 { 0.6349501627793149 3.971765090630749 -0.2771766069210733
+				<Normal> { 2.9546016548562237 -1.0222930881607877 -0.9945635329394203 }
+				<UV> { 0.884543 0.225194 }
+			}
+			<Vertex> 18 { 0.3885100607875138 3.6151181173136853 -0.19710389970559775
+				<Normal> { 1.9250831657194403 -2.5290984103060143 -0.8134046701465066 }
+				<UV> { 0.884543 0.327595 }
+			}
+			<Vertex> 19 { 0.38850910746519335 3.971765090630749 -0.6163657063574303
+				<Normal> { 1.8057463754193364 -1.0222797905366252 -2.5412860739575285 }
+				<UV> { 0.935743 0.225194 }
+			}
+			<Vertex> 20 { 0.23620315580543258 3.6151181173136853 -0.40673609246106285
+				<Normal> { 1.0793321714626523 -2.5290907837274506 -1.789595628660808 }
+				<UV> { 0.935744 0.327595 }
+			}
+			<Vertex> 21 { -0.010231337015055061 3.971765090630749 -0.7459251918974198
+				<Normal> { -0.03284510418166482 -1.0222780305569565 -3.117335437163906 }
+				<UV> { 0.986943 0.225194 }
+			}
+			<Vertex> 22 { -0.010230754174565862 3.6151181173136853 -0.4868077363554887
+				<Normal> { -0.1787046322555054 -2.5290919570472297 -2.0822268614931683 }
+				<UV> { 0.986943 0.327595 }
+			}
+			<Vertex> 23 { -0.010230754174565862 3.6151181173136853 -0.4868077363554887
+				<Normal> { -0.1787046322555054 -2.5290919570472297 -2.0822268614931683 }
+				<UV> { 0.474943 0.327595 }
+			}
+			<Vertex> 24 { -0.4089744932695324 3.971765090630749 -0.6163638974894377
+				<Normal> { -1.8588967836435073 -1.0222768572371776 -2.5026713378160332 }
+				<UV> { 0.526143 0.225194 }
+			}
+			<Vertex> 25 { -0.010231337015055061 3.971765090630749 -0.7459251918974198
+				<Normal> { -0.03284510418166482 -1.0222780305569565 -3.117335437163906 }
+				<UV> { 0.474943 0.225194 }
+			}
+			<Vertex> 26 { -0.2566675638432891 3.6151181173136853 -0.40673496802960796
+				<Normal> { -1.368476786794938 -2.5290937170268983 -1.5795149710860465 }
+				<UV> { 0.526143 0.327595 }
+			}
+			<Vertex> 27 { -0.6554107575278896 3.971765090630749 -0.27717372250994987
+				<Normal> { -2.9749110380182744 -1.0222823327294799 -0.932070370421322 }
+				<UV> { 0.577343 0.225194 }
+			}
+			<Vertex> 28 { -0.4089735399472119 3.6151181173136853 -0.1971021030596861
+				<Normal> { -2.0355330364597752 -2.5290972369862352 -0.47348102364014455 }
+				<UV> { 0.577343 0.327595 }
+			}
+			<Vertex> 29 { -0.655409779761407 3.971765090630749 0.14208809636396375
+				<Normal> { -2.954608303668305 -1.0222833104959623 0.9945540486045397 }
+				<UV> { 0.628543 0.225194 }
+			}
+			<Vertex> 30 { -0.4089729532873224 3.6151181173136853 0.06201535859328555
+				<Normal> { -1.9250823835062543 -2.529098605859311 0.8134058434662856 }
+				<UV> { 0.628543 0.327595 }
+			}
+			<Vertex> 31 { -0.40897202440916397 3.971765090630749 0.4812771958003207
+				<Normal> { -1.805745397652854 -1.0222838971558519 2.5412852917443423 }
+				<UV> { 0.679743 0.225194 }
+			}
+			<Vertex> 32 { -0.25666604830524115 3.6151181173136853 0.2716442819420747
+				<Normal> { -1.0793184827318967 -2.5290984103060143 1.7895930864679532 }
+				<UV> { 0.679743 0.327595 }
+			}
+			<Vertex> 33 { 0.38851157632556177 4.412595118124654 0.481275386932328
+				<Normal> { 1.8057522420182317 1.02229240372425 2.541277078505889 }
+				<UV> { 0.782143 0.122796 }
+			}
+			<Vertex> 34 { -0.010228284550317395 4.412595118124654 0.610836632451986
+				<Normal> { -0.032832176275453546 1.0222946525871597 3.117329961671604 }
+				<UV> { 0.730943 0.122796 }
+			}
+			<Vertex> 35 { 0.6349511405457975 4.412595118124654 0.14208518750867818
+				<Normal> { 2.9546038059424853 1.0223004214094067 0.9945501375386095 }
+				<UV> { 0.833343 0.122796 }
+			}
+			<Vertex> 36 { 0.6349501627793149 4.412595118124654 -0.2771766069210733
+				<Normal> { 2.974900478140263 1.0222965103434767 -0.9320879702180077 }
+				<UV> { 0.884543 0.122796 }
+			}
+			<Vertex> 37 { 0.38850910746519335 4.412595118124654 -0.6163657063574303
+				<Normal> { 1.8588797705067113 1.022283212719314 -2.5026813110341553 }
+				<UV> { 0.935743 0.122796 }
+			}
+			<Vertex> 38 { -0.010231337015055061 4.412595118124654 -0.7459251918974198
+				<Normal> { 0.03283981507609836 1.022285070475631 -3.1173330905243484 }
+				<UV> { 0.986943 0.122796 }
+			}
+			<Vertex> 39 { -0.4089744932695324 4.412595118124654 -0.6163638974894377
+				<Normal> { -1.8057586952770164 1.0222854615822239 -2.5412749274196273 }
+				<UV> { 0.526143 0.122796 }
+			}
+			<Vertex> 40 { -0.010231337015055061 4.412595118124654 -0.7459251918974198
+				<Normal> { 0.03283981507609836 1.022285070475631 -3.1173330905243484 }
+				<UV> { 0.474943 0.122796 }
+			}
+			<Vertex> 41 { -0.6554107575278896 4.412595118124654 -0.27717372250994987
+				<Normal> { -2.9546104547545666 1.022290448191285 -0.9945405554270808 }
+				<UV> { 0.577343 0.122796 }
+			}
+			<Vertex> 42 { -0.655409779761407 4.412595118124654 0.14208809636396375
+				<Normal> { -2.974903215886414 1.0222909370745261 0.9320853302485048 }
+				<UV> { 0.628543 0.122796 }
+			}
+			<Vertex> 43 { -0.40897202440916397 4.412595118124654 0.4812771958003207
+				<Normal> { -1.8588836815726413 1.02229240372425 2.50267485777537 }
+				<UV> { 0.679743 0.122796 }
+			}
+			<Vertex> 44 { 0.23620467134348053 4.769238767035677 0.2716431575106198
+				<Normal> { 1.0793328558991901 2.529096259219753 1.789587610975651 }
+				<UV> { 0.782143 0.0203955 }
+			}
+			<Vertex> 45 { -0.010228867390806595 4.769238767035677 0.3517159013923385
+				<Normal> { -0.17869347349552345 2.529098996965904 2.0822196260211974 }
+				<UV> { 0.730943 0.0203957 }
+			}
+			<Vertex> 46 { 0.3885106474474033 4.769238767035677 0.062013561947373896
+				<Normal> { 1.9250823835062543 2.5291009524988692 0.8133988035476114 }
+				<UV> { 0.833343 0.0203957 }
+			}
+			<Vertex> 47 { 0.3885100607875138 4.769238767035677 -0.19710389970559775
+				<Normal> { 2.035524823221322 2.5291019302653517 -0.4734902635334045 }
+				<UV> { 0.884543 0.0203957 }
+			}
+			<Vertex> 48 { 0.23620315580543258 4.769238767035677 -0.40673609246106285
+				<Normal> { 1.3684680846732433 2.529093912580195 -1.5795220110047208 }
+				<UV> { 0.935744 0.020396 }
+			}
+			<Vertex> 49 { -0.010230754174565862 4.769238767035677 -0.4868077363554887
+				<Normal> { 0.1787018578431112 2.5290915659406368 -2.0822278392596507 }
+				<UV> { 0.986943 0.0203963 }
+			}
+			<Vertex> 50 { -0.2566675638432891 4.769238767035677 -0.40673496802960796
+				<Normal> { -1.079336278081879 2.5290915659406368 -1.7895921087014708 }
+				<UV> { 0.526143 0.0203963 }
+			}
+			<Vertex> 51 { -0.010230754174565862 4.769238767035677 -0.4868077363554887
+				<Normal> { 0.1787018578431112 2.5290915659406368 -2.0822278392596507 }
+				<UV> { 0.474943 0.0203963 }
+			}
+			<Vertex> 52 { -0.4089735399472119 4.769238767035677 -0.1971021030596861
+				<Normal> { -1.9250921611710796 2.5290950858999737 -0.813393230278661 }
+				<UV> { 0.577343 0.0203963 }
+			}
+			<Vertex> 53 { -0.4089729532873224 4.769238767035677 0.06201535859328555
+				<Normal> { -2.035529125393845 2.529097432539532 0.47349642346224446 }
+				<UV> { 0.628543 0.0203963 }
+			}
+			<Vertex> 54 { -0.25666604830524115 4.769238767035677 0.2716442819420747
+				<Normal> { -1.3684630980641823 2.529096259219753 1.5795228909945551 }
+				<UV> { 0.679743 0.0203958 }
+			}
+			<Vertex> 55 { -0.010229810782686229 4.905472535473781 -0.06754590525949408
+				<Normal> { 2.825967398264412E-6 3.2808398950131235 1.0539209050532052E-6 }
+				<UV> { 0.0943998 0.224154 }
+			}
+			<Vertex> 56 { -0.010228867390806595 4.769238767035677 0.3517159013923385
+				<Normal> { -0.17869347349552345 2.529098996965904 2.0822196260211974 }
+				<UV> { 0.0943998 0.142141 }
+			}
+			<Vertex> 57 { 0.23620467134348053 4.769238767035677 0.2716431575106198
+				<Normal> { 1.0793328558991901 2.529096259219753 1.789587610975651 }
+				<UV> { 0.142605 0.157804 }
+			}
+			<Vertex> 58 { 0.3885106474474033 4.769238767035677 0.062013561947373896
+				<Normal> { 1.9250823835062543 2.5291009524988692 0.8133988035476114 }
+				<UV> { 0.172398 0.19881 }
+			}
+			<Vertex> 59 { 0.3885100607875138 4.769238767035677 -0.19710389970559775
+				<Normal> { 2.035524823221322 2.5291019302653517 -0.4734902635334045 }
+				<UV> { 0.172398 0.249497 }
+			}
+			<Vertex> 60 { 0.23620315580543258 4.769238767035677 -0.40673609246106285
+				<Normal> { 1.3684680846732433 2.529093912580195 -1.5795220110047208 }
+				<UV> { 0.142605 0.290503 }
+			}
+			<Vertex> 61 { -0.010230754174565862 4.769238767035677 -0.4868077363554887
+				<Normal> { 0.1787018578431112 2.5290915659406368 -2.0822278392596507 }
+				<UV> { 0.0943998 0.306166 }
+			}
+			<Vertex> 62 { -0.2566675638432891 4.769238767035677 -0.40673496802960796
+				<Normal> { -1.079336278081879 2.5290915659406368 -1.7895921087014708 }
+				<UV> { 0.0461938 0.290503 }
+			}
+			<Vertex> 63 { -0.4089735399472119 4.769238767035677 -0.1971021030596861
+				<Normal> { -1.9250921611710796 2.5290950858999737 -0.813393230278661 }
+				<UV> { 0.0164009 0.249497 }
+			}
+			<Vertex> 64 { -0.4089729532873224 4.769238767035677 0.06201535859328555
+				<Normal> { -2.035529125393845 2.529097432539532 0.47349642346224446 }
+				<UV> { 0.0164009 0.19881 }
+			}
+			<Vertex> 65 { -0.25666604830524115 4.769238767035677 0.2716442819420747
+				<Normal> { -1.3684630980641823 2.529096259219753 1.5795228909945551 }
+				<UV> { 0.0461938 0.157804 }
+			}
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 2 1 0 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 1 3 0 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 3 4 0 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 4 5 0 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 5 6 0 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 6 7 0 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 7 8 0 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 8 9 0 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 9 10 0 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 10 2 0 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 13 12 11 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 12 14 11 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 12 15 14 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 15 16 14 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 15 17 16 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 17 18 16 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 17 19 18 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 19 20 18 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 19 21 20 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 21 22 20 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 25 24 23 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 24 26 23 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 24 27 26 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 27 28 26 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 27 29 28 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 29 30 28 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 29 31 30 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 31 32 30 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 31 13 32 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 13 11 32 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 34 33 13 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 33 12 13 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 33 35 12 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 35 15 12 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 35 36 15 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 36 17 15 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 36 37 17 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 37 19 17 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 37 38 19 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 38 21 19 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 40 39 25 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 39 24 25 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 39 41 24 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 41 27 24 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 41 42 27 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 42 29 27 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 42 43 29 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 43 31 29 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 43 34 31 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 34 13 31 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 45 44 34 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 44 33 34 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 44 46 33 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 46 35 33 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 46 47 35 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 47 36 35 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 47 48 36 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 48 37 36 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 48 49 37 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 49 38 37 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 51 50 40 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 50 39 40 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 50 52 39 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 52 41 39 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 52 53 41 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 53 42 41 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 53 54 42 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 54 43 42 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 54 45 43 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 45 34 43 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 57 56 55 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 58 57 55 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 59 58 55 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 60 59 55 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 61 60 55 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 62 61 55 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 63 62 55 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 64 63 55 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 65 64 55 <Ref> { Snowman.Head.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 56 65 55 <Ref> { Snowman.Head.verts } }
+		}
+		<Group> Hat {
+			<Transform> {
+				<Matrix4> { 
+					1.0 0.0 0.0 0.0 
+					0.0 1.0 0.0 0.0 
+					0.0 0.0 1.0 0.0 
+					-0.0017 0.5866 -0.025 1.0 
+				}
+			}
+			<VertexPool> Snowman.Head.Hat.verts {
+				<Vertex> 0 { -0.7101000757824405 4.7940182845423545 -0.08202094848700396
+					<Normal> { -2.379107076352037 2.2462039716600435 0.24151367445786795 }
+					<UV> { 0.717371 0.798224 }
+				}
+				<Vertex> 1 { -0.5037505262167122 4.696846287081561 0.41615117214170344
+					<Normal> { -2.0091030306703463 -1.976218592776401 1.6798738028433693 }
+					<UV> { 0.601519 0.775626 }
+				}
+				<Vertex> 2 { -0.5037505262167122 4.746039283244316 0.41615117214170344
+					<Normal> { -1.6259363903774051 2.1424860231519687 1.8788285533900024 }
+					<UV> { 0.601519 0.787066 }
+				}
+				<Vertex> 3 { -0.7101000757824405 4.74482861278564 -0.08202094848700396
+					<Normal> { -1.3649389343311782 -2.976956329946443 -0.19642711419054842 }
+					<UV> { 0.717371 0.786785 }
+				}
+				<Vertex> 4 { -0.005577458376724889 4.78126234301119 0.6225017483622384
+					<Normal> { -0.2861661186290225 -1.0521609209028129 3.094345996073225 }
+					<UV> { 0.553531 0.795258 }
+				}
+				<Vertex> 5 { -0.005577458376724889 4.8304553391739455 0.6225016994739142
+					<Normal> { 0.08718286618942352 2.353781360027984 2.283861474415136 }
+					<UV> { 0.553531 0.806698 }
+				}
+				<Vertex> 6 { 0.49259464391886093 4.812810956336695 0.4161489232787936
+					<Normal> { 1.5351063818756365 -2.31621576732225 1.7442777166216392 }
+					<UV> { 0.601519 0.802594 }
+				}
+				<Vertex> 7 { 0.49259464391886093 4.862003756946153 0.4161489232787936
+					<Normal> { 1.701139050518747 2.4836236645230474 1.3044729750613215 }
+					<UV> { 0.601519 0.814034 }
+				}
+				<Vertex> 8 { 0.6989452201393959 4.812810956336695 -0.08202411400599117
+					<Normal> { 2.6763169940688165 -1.8637908959951928 0.35710368804105624 }
+					<UV> { 0.717371 0.802594 }
+				}
+				<Vertex> 9 { 0.6989452201393959 4.862003756946153 -0.08202411400599117
+					<Normal> { 2.1020985963776355 2.494664994750436 -0.3489100293615672 }
+					<UV> { 0.717371 0.814034 }
+				}
+				<Vertex> 10 { 0.4925923950559511 4.812810956336695 -0.5801962468567795
+					<Normal> { 2.1832027616776193 -1.8642619838864785 -1.5881009341224912 }
+					<UV> { 0.833224 0.802594 }
+				}
+				<Vertex> 11 { 0.4925923950559511 4.862003756946153 -0.5801962468567795
+					<Normal> { 1.2001881175466722 2.4901836954076773 -1.7670442269543025 }
+					<UV> { 0.833224 0.814034 }
+				}
+				<Vertex> 12 { -0.005580628478992486 4.78126234301119 -0.786543547559598
+					<Normal> { 0.6791845628908613 -1.93898876508077 -2.557917686272168 }
+					<UV> { 0.881211 0.795258 }
+				}
+				<Vertex> 13 { -0.005580628478992486 4.8304553391739455 -0.7865435964479222
+					<Normal> { -0.5044852654764972 2.389800712818236 -2.1904925974648144 }
+					<UV> { 0.881211 0.806698 }
+				}
+				<Vertex> 14 { -0.5037527750796221 4.696846287081561 -0.5801939979938697
+					<Normal> { -1.7760062389799305 -1.1665691814710462 -2.4997658069365296 }
+					<UV> { 0.833224 0.775626 }
+				}
+				<Vertex> 15 { -0.5037527750796221 4.746039283244316 -0.5801939979938697
+					<Normal> { -1.9482652268071814 2.1546513937276806 -1.5250088896338396 }
+					<UV> { 0.833224 0.787066 }
+				}
+				<Vertex> 16 { -0.030196133424134394 5.504129796829123 -0.5043945091915881
+					<Normal> { -0.24198251348624392 1.600142812791459 -2.8539269067483937 }
+					<UV> { 0.815596 0.963364 }
+				}
+				<Vertex> 17 { -0.3274858979962942 5.53272555537737 -0.38068651605465903
+					<Normal> { -2.504688078962912 0.832564639920012 -1.9486623955523874 }
+					<UV> { 0.786827 0.970014 }
+				}
+				<Vertex> 18 { -0.4506250021495219 5.544598964881397 -0.08201824740709596
+					<Normal> { -1.422241134593493 2.947235553283391 0.23440093662482234 }
+					<UV> { 0.71737 0.972775 }
+				}
+				<Vertex> 19 { 0.2670974444373074 5.475534038280878 -0.3806878360394105
+					<Normal> { 1.8817364309090643 1.3958525861029238 -2.296644206747921 }
+					<UV> { 0.786827 0.956714 }
+				}
+				<Vertex> 20 { 0.3902378685752864 5.463660628776851 -0.08202014182965588
+					<Normal> { 2.99115095708001 1.2890531087484887 -0.39404226354570215 }
+					<UV> { 0.71737 0.953953 }
+				}
+				<Vertex> 21 { 0.26709878886622085 5.475534038280878 0.2166448146339477
+					<Normal> { 2.1392400339832456 2.008808722959103 1.4670550080109144 }
+					<UV> { 0.647915 0.956714 }
+				}
+				<Vertex> 22 { -0.3274845535673807 5.53272555537737 0.21664618350702322
+					<Normal> { -1.5810644376309213 1.7290269061336367 2.296652615539671 }
+					<UV> { 0.647915 0.970014 }
+				}
+				<Vertex> 23 { -0.030194232890533964 5.504129796829123 0.3403561321769174
+					<Normal> { 0.4957848059849476 0.5438367975509073 3.1972410563095974 }
+					<UV> { 0.619145 0.963364 }
+				}
+				<Vertex> 24 { -0.34347932212778276 4.830783282052188 -0.08202177347747361
+					<Normal> { -2.6789372126887163 1.8881834319883133 -0.14822378881725426 }
+					<UV> { 0.717371 0.806774 }
+				}
+				<Vertex> 25 { -0.24450896766398522 4.830783282052188 0.15691174023107593
+					<Normal> { -2.164407938797017 1.9280303494511002 1.5368633304681052 }
+					<UV> { 0.661806 0.806774 }
+				}
+				<Vertex> 26 { -0.005578283367194528 4.830783282052188 0.2558810191517427
+					<Normal> { -0.407155652058719 2.3898959472736347 2.21055030353426 }
+					<UV> { 0.63879 0.806774 }
+				}
+				<Vertex> 27 { 0.23335191204635494 4.830783282052188 0.15691066468794515
+					<Normal> { 1.082280430737443 2.6947977583552283 1.5266450840657153 }
+					<UV> { 0.661806 0.806774 }
+				}
+				<Vertex> 28 { 0.3323211909670217 4.830783282052188 -0.08202328901552153
+					<Normal> { 1.6591156248658347 2.8175369804612607 0.2696863045607965 }
+					<UV> { 0.717371 0.806774 }
+				}
+				<Vertex> 29 { 0.23335083650322413 4.830783282052188 -0.32095349054011146
+					<Normal> { 1.4122262636194705 2.7431299289067588 -1.115690809222344 }
+					<UV> { 0.772936 0.806774 }
+				}
+				<Vertex> 30 { -0.005579803488522846 4.830783282052188 -0.41992281834910233
+					<Normal> { 0.09983668001148645 2.3692111017822906 -2.2673292031751218 }
+					<UV> { 0.795951 0.806774 }
+				}
+				<Vertex> 31 { -0.244510043207116 4.830783282052188 -0.3209524149969807
+					<Normal> { -1.6076095265353445 1.947157026275875 -2.094774929870145 }
+					<UV> { 0.772936 0.806774 }
+				}
+				<Vertex> 32 { -0.3125710725158531 5.064185527991748 -0.3209522683320083
+					<Normal> { -2.298120829689847 -0.5669089576860112 -2.271819889076113 }
+					<UV> { 0.772936 0.861053 }
+				}
+				<Vertex> 33 { -0.4110843211490651 5.073663996273451 -0.0820183390727037
+					<Normal> { -3.2278557070909835 -0.5872258207616531 -0.004878862632018101 }
+					<UV> { 0.71737 0.863257 }
+				}
+				<Vertex> 34 { -0.07473991107283615 5.041295232422396 -0.41992267168412994
+					<Normal> { -0.03042766821920246 -0.38128478203232835 -3.2584670334663293 }
+					<UV> { 0.795951 0.85573 }
+				}
+				<Vertex> 35 { 0.16309496588281447 5.018404741299747 -0.3209533438751391
+					<Normal> { 2.3040652587970722 -0.06437894406672225 -2.3347481576789395 }
+					<UV> { 0.772936 0.850406 }
+				}
+				<Vertex> 36 { 0.2616092656149952 5.00892646857134 -0.08202313012846812
+					<Normal> { 3.2767813818974134 0.16287019295407718 0.00935978347220485 }
+					<UV> { 0.717371 0.848202 }
+				}
+				<Vertex> 37 { 0.16309604142594525 5.018404741299747 0.15691081135291754
+					<Normal> { 2.298052190482773 0.10179044077480873 2.3393389668677425 }
+					<UV> { 0.661806 0.850406 }
+				}
+				<Vertex> 38 { -0.3125699969727223 5.064185527991748 0.15691188689604832
+					<Normal> { -2.3115029328764267 -0.464317885049059 2.281507208278486 }
+					<UV> { 0.661806 0.861053 }
+				}
+				<Vertex> 39 { -0.0747383894237477 5.041295232422396 0.2558811658167151
+					<Normal> { -0.02576383820727585 -0.1887879224391434 3.2753024123159293 }
+					<UV> { 0.63879 0.85573 }
+				}
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 2 1 0 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 1 3 0 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 5 4 2 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 4 1 2 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 7 6 5 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 6 4 5 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 9 8 7 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 8 6 7 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 11 10 9 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 10 8 9 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 13 12 11 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 12 10 11 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 15 14 13 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 14 12 13 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 0 3 15 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 3 14 15 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 18 17 16 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 18 16 19 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 18 19 20 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 18 20 21 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 22 18 21 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 22 21 23 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 14 3 12 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 12 3 10 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 10 3 8 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 8 3 6 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 3 1 6 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 6 1 4 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 0 24 2 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 25 2 24 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 2 25 5 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 26 5 25 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 5 26 7 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 27 7 26 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 7 27 9 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 28 9 27 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 9 28 11 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 29 11 28 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 11 29 13 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 30 13 29 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 13 30 15 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 31 15 30 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 15 31 0 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 24 0 31 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 31 32 24 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 33 24 32 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 30 34 31 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 32 31 34 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 29 35 30 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 34 30 35 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 28 36 29 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 35 29 36 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 27 37 28 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 36 28 37 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 24 33 25 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 38 25 33 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 25 38 26 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 39 26 38 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 26 39 27 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 37 27 39 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 32 17 33 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 18 33 17 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 34 16 32 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 17 32 16 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 35 19 34 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 16 34 19 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 36 20 35 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 19 35 20 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 37 21 36 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 20 36 21 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 33 18 38 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 22 38 18 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 38 22 39 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 23 39 22 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 39 23 37 <Ref> { Snowman.Head.Hat.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 21 37 23 <Ref> { Snowman.Head.Hat.verts } }
+			}
+		}
+
+		<Group> Eyes {
+			<Transform> {
+				<Matrix4> { 
+					1.0 0.0 0.0 0.0 
+					0.0 1.0 0.0 0.0 
+					0.0 0.0 1.0 0.0 
+					-0.0052 0.5186 0.1647 1.0 
+				}
+			}
+			<VertexPool> Snowman.Head.Eyes.verts {
+				<Vertex> 0 { -0.20827923736625456 4.543456884506806 0.49698060954336737
+					<Normal> { 0.885344963530543 1.6708304406463943 -2.6811191963711436 }
+					<UV> { 0.882138 0.965975 }
+				}
+				<Vertex> 1 { -0.22509345979358894 4.560770000059773 0.5398480432240044
+					<Normal> { 0.5607067893339893 2.9155447727113257 1.396107978708162 }
+					<UV> { 0.879115 0.969089 }
+				}
+				<Vertex> 2 { -0.1505790005909802 4.472945254618727 0.5480860680576385
+					<Normal> { 3.1987691097685045 0.614339480875671 -0.3929052922356473 }
+					<UV> { 0.892514 0.953297 }
+				}
+				<Vertex> 3 { -0.16739648631395004 4.490261499024439 0.5909503239972073
+					<Normal> { 2.3648222991487797 0.14323990528039107 2.269583150470664 }
+					<UV> { 0.889489 0.95641 }
+				}
+				<Vertex> 4 { -0.30163561112768067 4.500822550355606 0.47757790924057253
+					<Normal> { -1.5238895425646324 -0.12030490133862483 -2.9029636558272394 }
+					<UV> { 0.865352 0.958309 }
+				}
+				<Vertex> 5 { -0.31845309685065054 4.518138794761317 0.5204421162918171
+					<Normal> { -2.260239418410254 2.3180701992330275 0.5308285922672492 }
+					<UV> { 0.862328 0.961423 }
+				}
+				<Vertex> 6 { -0.30163551335103245 4.403945838372539 0.5166887640953065
+					<Normal> { -1.4378401277259267 -2.8328274882684545 -0.8195213328196308 }
+					<UV> { 0.865352 0.94089 }
+				}
+				<Vertex> 7 { -0.31845302351816435 4.42126208277825 0.5595530200348752
+					<Normal> { -3.0634552240371704 -1.006830591229316 0.6045208965230175 }
+					<UV> { 0.862328 0.944003 }
+				}
+				<Vertex> 8 { -0.20827909070128217 4.38672795727497 0.560264687369189
+					<Normal> { 1.895959022164032 -2.4039149675469385 -1.1791709292279142 }
+					<UV> { 0.882138 0.937794 }
+				}
+				<Vertex> 9 { -0.22509331312861655 4.404044201680682 0.6031288944204336
+					<Normal> { -0.7111675000879083 -1.0326596617385784 3.0317924075865057 }
+					<UV> { 0.879115 0.940907 }
+				}
+				<Vertex> 10 { 0.11645840012573509 4.472945254618727 0.548085481397749
+					<Normal> { -3.198775563027289 0.6143631428245484 -0.39281587549081937 }
+					<UV> { 0.94053 0.953297 }
+				}
+				<Vertex> 11 { 0.19097279821793867 4.560770000059773 0.539847114345846
+					<Normal> { -0.5607126559328846 2.9155357772596866 1.3961247962916616 }
+					<UV> { 0.953929 0.969089 }
+				}
+				<Vertex> 12 { 0.17415512916375334 4.543456884506806 0.4969797295535331
+					<Normal> { -0.8853833897533067 1.670846084910115 -2.6810970988486384 }
+					<UV> { 0.950905 0.965975 }
+				}
+				<Vertex> 13 { 0.13327608140200142 4.490261499024439 0.5909496395606695
+					<Normal> { -2.364823863575152 0.1433077744963601 2.269577479425065 }
+					<UV> { 0.943554 0.95641 }
+				}
+				<Vertex> 14 { 0.284332337498352 4.518138794761317 0.5204407474187416
+					<Normal> { 2.2602509560547475 2.3180694170198417 0.5307831750141354 }
+					<UV> { 0.970716 0.961423 }
+				}
+				<Vertex> 15 { 0.26751465622208564 4.500822550355606 0.47757663814414525
+					<Normal> { 1.5238844581789233 -0.12030360579803548 -2.9029663935733905 }
+					<UV> { 0.967692 0.958309 }
+				}
+				<Vertex> 16 { 0.28433241083083816 4.42126208277825 0.5595516511617996
+					<Normal> { 3.0634650017019958 -1.0068220846609182 0.6044849636047844 }
+					<UV> { 0.970716 0.944003 }
+				}
+				<Vertex> 17 { 0.2675147539987339 4.403945838372539 0.5166874929988792
+					<Normal> { 1.4378222345992961 -2.832824163862414 -0.8195644034331865 }
+					<UV> { 0.967692 0.94089 }
+				}
+				<Vertex> 18 { 0.19097294488291103 4.404044201680682 0.6031312410599917
+					<Normal> { 0.7111850021079457 -1.0326408886221137 3.031794754226064 }
+					<UV> { 0.953929 0.940907 }
+				}
+				<Vertex> 19 { 0.17415527582872573 4.38672795727497 0.5602638073793547
+					<Normal> { -1.895987572945322 -2.403890523384875 -1.1791749380704926 }
+					<UV> { 0.950905 0.937794 }
+				}
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 2 1 0 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 2 3 1 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 0 5 4 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 0 1 5 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 4 7 6 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 4 5 7 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 6 9 8 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 6 7 9 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 8 3 2 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 8 9 3 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 4 6 8 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 0 4 8 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 2 0 8 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 5 9 7 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 1 9 5 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 3 9 1 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 12 11 10 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 11 13 10 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 15 14 12 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 14 11 12 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 17 16 15 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 16 14 15 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 19 18 17 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 18 16 17 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 10 13 19 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 13 18 19 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 19 17 15 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 19 15 12 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 19 12 10 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 16 18 14 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 14 18 11 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 11 18 13 <Ref> { Snowman.Head.Eyes.verts } }
+			}
+		}
+
+		<Group> Carrot {
+			<Transform> {
+				<Matrix4> { 
+					1.0 0.0 0.0 0.0 
+					0.0 1.0 0.0 0.0 
+					0.0 0.0 1.0 0.0 
+					-0.0031 0.4333 0.1734 1.0 
+				}
+			}
+			<VertexPool> Snowman.Head.Carrot.verts {
+				<Vertex> 0 { -0.10834479344681179 4.19390917543977 0.5688976377952756
+					<Normal> { -1.3747316567603685 1.0410068001554731E-4 -2.9789298538147935 }
+					<UV> { 0.757506 0.364242 }
+				}
+				<Vertex> 1 { -0.010167617667368626 4.19390917543977 1.1592090940225155
+					<Normal> { 1.1953584648800307E-5 0.0010227615964290959 3.280839699459827 }
+					<UV> { 0.54779 0.364242 }
+				}
+				<Vertex> 2 { -0.05925687357020659 4.2789157045482025 0.5688975400186274
+					<Normal> { -1.5139441907875182 2.622479216007423 -1.262730070612249 }
+					<UV> { 0.757506 0.394442 }
+				}
+				<Vertex> 3 { -0.05925687357020659 4.2789157045482025 0.5688975400186274
+					<Normal> { -1.5139441907875182 2.622479216007423 -1.262730070612249 }
+					<UV> { 0.403462 0.280732 }
+				}
+				<Vertex> 4 { -0.010167617667368626 4.19390917543977 1.1592090940225155
+					<Normal> { 1.1953584648800307E-5 0.0010227615964290959 3.280839699459827 }
+					<UV> { 0.425261 0.0185877 }
+				}
+				<Vertex> 5 { 0.03891569983184807 4.2789157045482025 0.5688972955770067
+					<Normal> { 1.1596886387334409 2.008843726999178 -2.3202543340017163 }
+					<UV> { 0.447059 0.280732 }
+				}
+				<Vertex> 6 { 0.03891569983184807 4.2789157045482025 0.5688972955770067
+					<Normal> { 1.1596886387334409 2.008843726999178 -2.3202543340017163 }
+					<UV> { 0.88762 0.568838 }
+				}
+				<Vertex> 7 { -0.010167617667368626 4.19390917543977 1.1592090940225155
+					<Normal> { 1.1953584648800307E-5 0.0010227615964290959 3.280839699459827 }
+					<UV> { 0.677904 0.538638 }
+				}
+				<Vertex> 8 { 0.08800362276397353 4.19390917543977 0.5688971978003584
+					<Normal> { 2.3195346978705698 1.7564642686366893E-4 -2.320273498224774 }
+					<UV> { 0.88762 0.538638 }
+				}
+				<Vertex> 9 { 0.03891569983184807 4.108873117783564 0.5688972955770067
+					<Normal> { 1.1598355970357659 -2.008742039284994 -2.320268804945658 }
+					<UV> { 0.88762 0.508428 }
+				}
+				<Vertex> 10 { 0.03891569983184807 4.108873117783564 0.5688972955770067
+					<Normal> { 1.1598355970357659 -2.008742039284994 -2.320268804945658 }
+					<UV> { 0.388015 0.281278 }
+				}
+				<Vertex> 11 { -0.010167617667368626 4.19390917543977 1.1592090940225155
+					<Normal> { 1.1953584648800307E-5 0.0010227615964290959 3.280839699459827 }
+					<UV> { 0.366218 0.0191344 }
+				}
+				<Vertex> 12 { -0.05925687357020659 4.108873117783564 0.5688975400186274
+					<Normal> { -1.5141537261447255 -2.622377332739943 -1.262690373293058 }
+					<UV> { 0.344419 0.281278 }
+				}
+				<Vertex> 13 { -0.05925687357020659 4.108873117783564 0.5688975400186274
+					<Normal> { -1.5141537261447255 -2.622377332739943 -1.262690373293058 }
+					<UV> { 0.757506 0.334032 }
+				}
+				<Vertex> 14 { -0.10834479344681179 4.19390917543977 0.5688976377952756
+					<Normal> { -1.3747316567603685 1.0410068001554731E-4 -2.9789298538147935 }
+					<UV> { 0.347153 0.333147 }
+				}
+				<Vertex> 15 { -0.05925687357020659 4.2789157045482025 0.5688975400186274
+					<Normal> { -1.5139441907875182 2.622479216007423 -1.262730070612249 }
+					<UV> { 0.374401 0.333147 }
+				}
+				<Vertex> 16 { 0.03891569983184807 4.2789157045482025 0.5688972955770067
+					<Normal> { 1.1596886387334409 2.008843726999178 -2.3202543340017163 }
+					<UV> { 0.428896 0.333147 }
+				}
+				<Vertex> 17 { 0.08800362276397353 4.19390917543977 0.5688971978003584
+					<Normal> { 2.3195346978705698 1.7564642686366893E-4 -2.320273498224774 }
+					<UV> { 0.456145 0.333147 }
+				}
+				<Vertex> 18 { 0.03891569983184807 4.108873117783564 0.5688972955770067
+					<Normal> { 1.1598355970357659 -2.008742039284994 -2.320268804945658 }
+					<UV> { 0.428896 0.333147 }
+				}
+				<Vertex> 19 { -0.05925687357020659 4.108873117783564 0.5688975400186274
+					<Normal> { -1.5141537261447255 -2.622377332739943 -1.262690373293058 }
+					<UV> { 0.374401 0.333147 }
+				}
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 2 1 0 <Ref> { Snowman.Head.Carrot.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 5 4 3 <Ref> { Snowman.Head.Carrot.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 8 7 6 <Ref> { Snowman.Head.Carrot.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 9 7 8 <Ref> { Snowman.Head.Carrot.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 12 11 10 <Ref> { Snowman.Head.Carrot.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 0 1 13 <Ref> { Snowman.Head.Carrot.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 16 15 14 <Ref> { Snowman.Head.Carrot.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 17 16 14 <Ref> { Snowman.Head.Carrot.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 18 17 14 <Ref> { Snowman.Head.Carrot.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 19 18 14 <Ref> { Snowman.Head.Carrot.verts } }
+			}
+		}
+
+		<Group> Mouth {
+			<Transform> {
+				<Matrix4> { 
+					1.0 0.0 0.0 0.0 
+					0.0 1.0 0.0 0.0 
+					0.0 0.0 1.0 0.0 
+					-0.0090 0.34 0.1247 1.0 
+				}
+			}
+			<VertexPool> Snowman.Head.Mouth.verts {
+				<Vertex> 0 { 0.2793472839074498 3.9915230017634515 0.5542644248625113
+					<Normal> { 2.678797783188307 1.3393974249444296 1.3393913627922378 }
+					<UV> { 0.978011 0.885816 }
+				}
+				<Vertex> 1 { 0.20432431280143618 3.9915230017634515 0.5542646204158077
+					<Normal> { -1.0936084420975112 2.1872266618598477 2.1872292040527026 }
+					<UV> { 0.964521 0.885816 }
+				}
+				<Vertex> 2 { 0.2793472839074498 3.916490277436775 0.5542644248625113
+					<Normal> { 1.0936182197623365 -2.1872266618598477 2.1872241196669933 }
+					<UV> { 0.978011 0.872324 }
+				}
+				<Vertex> 3 { 0.20432431280143618 3.916490277436775 0.5542646204158077
+					<Normal> { -2.678791721036115 -1.3393973271677813 1.339403389319973 }
+					<UV> { 0.964521 0.872324 }
+				}
+				<Vertex> 4 { 0.20432409280397762 3.916490277436775 0.45423510040980314
+					<Normal> { -1.3394003582438772 -2.6787946543355625 -1.3393942960916856 }
+					<UV> { 0.964521 0.872324 }
+				}
+				<Vertex> 5 { 0.20432409280397762 3.9915230017634515 0.45423510040980314
+					<Normal> { -2.1872315506922604 1.0936133309299239 -2.187221773027435 }
+					<UV> { 0.964521 0.885816 }
+				}
+				<Vertex> 6 { 0.27934706390999126 3.916490277436775 0.45423490485650664
+					<Normal> { 2.187221773027435 -1.0936133309299239 -2.1872315506922604 }
+					<UV> { 0.978011 0.872324 }
+				}
+				<Vertex> 7 { 0.27934706390999126 3.9915230017634515 0.45423490485650664
+					<Normal> { 1.3393942960916856 2.6787946543355625 -1.3394003582438772 }
+					<UV> { 0.978011 0.885816 }
+				}
+				<Vertex> 8 { 0.13394364251161184 3.8590985137646596 0.5091499371400343
+					<Normal> { 2.678797783188307 1.3393974249444296 1.3393913627922378 }
+					<UV> { 0.951866 0.862005 }
+				}
+				<Vertex> 9 { 0.05892067140559824 3.8590985137646596 0.5091500838050067
+					<Normal> { -1.0936084420975112 2.1872266618598477 2.1872292040527026 }
+					<UV> { 0.938376 0.862005 }
+				}
+				<Vertex> 10 { 0.13394364251161184 3.7840623672552938 0.5091499371400343
+					<Normal> { 1.0936182197623365 -2.1872266618598477 2.1872241196669933 }
+					<UV> { 0.951866 0.848512 }
+				}
+				<Vertex> 11 { 0.05892067140559824 3.7840623672552938 0.5091500838050067
+					<Normal> { -2.678791721036115 -1.3393973271677813 1.339403389319973 }
+					<UV> { 0.938376 0.848512 }
+				}
+				<Vertex> 12 { 0.058920451408139674 3.7840623672552938 0.4091205882431641
+					<Normal> { -1.3394003582438772 -2.6787946543355625 -1.3393942960916856 }
+					<UV> { 0.938376 0.848512 }
+				}
+				<Vertex> 13 { 0.058920451408139674 3.8590985137646596 0.4091205882431641
+					<Normal> { -2.1872315506922604 1.0936133309299239 -2.187221773027435 }
+					<UV> { 0.938376 0.862005 }
+				}
+				<Vertex> 14 { 0.13394341029207224 3.7840623672552938 0.4091204171340297
+					<Normal> { 2.187221773027435 -1.0936133309299239 -2.1872315506922604 }
+					<UV> { 0.951866 0.848512 }
+				}
+				<Vertex> 15 { 0.13394341029207224 3.8590985137646596 0.4091204171340297
+					<Normal> { 1.3393942960916856 2.6787946543355625 -1.3394003582438772 }
+					<UV> { 0.951866 0.862005 }
+				}
+				<Vertex> 16 { -0.0677230289289019 3.8590985137646596 0.5091503771349514
+					<Normal> { 2.678797783188307 1.3393974249444296 1.3393913627922378 }
+					<UV> { 0.915603 0.862005 }
+				}
+				<Vertex> 17 { -0.14274598781283446 3.8590985137646596 0.5091505726882479
+					<Normal> { -1.0936084420975112 2.1872266618598477 2.1872292040527026 }
+					<UV> { 0.902113 0.862005 }
+				}
+				<Vertex> 18 { -0.0677230289289019 3.7840623672552938 0.5091503771349514
+					<Normal> { 1.0936182197623365 -2.1872266618598477 2.1872241196669933 }
+					<UV> { 0.915603 0.848512 }
+				}
+				<Vertex> 19 { -0.14274598781283446 3.7840623672552938 0.5091505726882479
+					<Normal> { -2.678791721036115 -1.3393973271677813 1.339403389319973 }
+					<UV> { 0.902113 0.848512 }
+				}
+				<Vertex> 20 { -0.14274622003237408 3.7840623672552938 0.4091210282380813
+					<Normal> { -1.3394003582438772 -2.6787946543355625 -1.3393942960916856 }
+					<UV> { 0.902113 0.848512 }
+				}
+				<Vertex> 21 { -0.14274622003237408 3.8590985137646596 0.4091210282380813
+					<Normal> { -2.1872315506922604 1.0936133309299239 -2.187221773027435 }
+					<UV> { 0.902113 0.862005 }
+				}
+				<Vertex> 22 { -0.06772324892636047 3.7840623672552938 0.4091208571289468
+					<Normal> { 2.187221773027435 -1.0936133309299239 -2.1872315506922604 }
+					<UV> { 0.915603 0.848512 }
+				}
+				<Vertex> 23 { -0.06772324892636047 3.8590985137646596 0.4091208571289468
+					<Normal> { 1.3393942960916856 2.6787946543355625 -1.3394003582438772 }
+					<UV> { 0.915603 0.862005 }
+				}
+				<Vertex> 24 { -0.26338236421112 3.9915230017634515 0.5542656470706144
+					<Normal> { 2.678797783188307 1.3393974249444296 1.3393913627922378 }
+					<UV> { 0.880421 0.885816 }
+				}
+				<Vertex> 25 { -0.3384020597994171 3.9915230017634515 0.5542658426239109
+					<Normal> { -1.0936084420975112 2.1872266618598477 2.1872292040527026 }
+					<UV> { 0.866932 0.885816 }
+				}
+				<Vertex> 26 { -0.26338236421112 3.916490277436775 0.5542656470706144
+					<Normal> { 1.0936182197623365 -2.1872266618598477 2.1872241196669933 }
+					<UV> { 0.880421 0.872324 }
+				}
+				<Vertex> 27 { -0.3384020597994171 3.916490277436775 0.5542658426239109
+					<Normal> { -2.678791721036115 -1.3393973271677813 1.339403389319973 }
+					<UV> { 0.866932 0.872324 }
+				}
+				<Vertex> 28 { -0.33840227979687565 3.916490277436775 0.4542363226179063
+					<Normal> { -1.3394003582438772 -2.6787946543355625 -1.3393942960916856 }
+					<UV> { 0.866932 0.872324 }
+				}
+				<Vertex> 29 { -0.33840227979687565 3.9915230017634515 0.4542363226179063
+					<Normal> { -2.1872315506922604 1.0936133309299239 -2.187221773027435 }
+					<UV> { 0.866932 0.885816 }
+				}
+				<Vertex> 30 { -0.2633825842085786 3.916490277436775 0.4542361270646098
+					<Normal> { 2.187221773027435 -1.0936133309299239 -2.1872315506922604 }
+					<UV> { 0.880421 0.872324 }
+				}
+				<Vertex> 31 { -0.2633825842085786 3.9915230017634515 0.4542361270646098
+					<Normal> { 1.3393942960916856 2.6787946543355625 -1.3394003582438772 }
+					<UV> { 0.880421 0.885816 }
+				}
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 2 1 0 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 1 2 3 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 6 5 4 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 5 6 7 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 2 4 3 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 4 2 6 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 3 5 1 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 5 3 4 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 1 7 0 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 7 1 5 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 0 6 2 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 6 0 7 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 10 9 8 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 9 10 11 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 14 13 12 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 13 14 15 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 10 12 11 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 12 10 14 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 11 13 9 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 13 11 12 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 9 15 8 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 15 9 13 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 8 14 10 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 14 8 15 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 18 17 16 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 17 18 19 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 22 21 20 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 21 22 23 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 18 20 19 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 20 18 22 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 19 21 17 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 21 19 20 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 17 23 16 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 23 17 21 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 16 22 18 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 22 16 23 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 26 25 24 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 25 26 27 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 30 29 28 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 29 30 31 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 26 28 27 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 28 26 30 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 27 29 25 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 29 27 28 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 25 31 24 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 31 25 29 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 24 30 26 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+			<Polygon>  {
+				<TRef> { TextureMap1 }
+				<RGBA> { 1.0 1.0 1.0 1.0 }
+				<BFace> { 0 }
+				<VertexRef> { 30 24 31 <Ref> { Snowman.Head.Mouth.verts } }
+			}
+		}
+
+	}
+
+	<Group> Bottom {
+		<Transform> {
+			<Matrix4> { 
+				1.0 0.0 0.0 0.0 
+				0.0 1.0 0.0 0.0 
+				0.0 0.0 1.0 0.0 
+				0.0 0.845 0.0 1.0 
+			}
+		}
+		<VertexPool> Snowman.Bottom.verts {
+			<Vertex> 0 { -0.010229810782686229 6.554946498833493E-6 -0.06754590525949408
+				<Normal> { 8.524506268557536E-8 -3.2808398950131235 6.819452089637807E-7 }
+				<UV> { 0.592471 0.442454 }
+			}
+			<Vertex> 1 { 0.38633308815830963 0.2192223869909451 0.47827667490703857
+				<Normal> { 1.3684660313636299 -2.5291040813516132 1.5795079311673723 }
+				<UV> { 0.629207 0.391891 }
+			}
+			<Vertex> 2 { -0.010228292952998104 0.2192223869909451 0.6071292841684787
+				<Normal> { 0.17871189217163821 -2.52910760131095 2.0822076972701105 }
+				<UV> { 0.592471 0.379954 }
+			}
+			<Vertex> 3 { 0.631424190178318 0.2192223869909451 0.14094018629138552
+				<Normal> { 2.035520716602095 -2.5291068190977644 0.4734831747264061 }
+				<UV> { 0.651912 0.423141 }
+			}
+			<Vertex> 4 { 0.6314232613001596 0.2192223869909451 -0.27603159348169964
+				<Normal> { 1.9250739747145045 -2.529107796864247 -0.8133979235577772 }
+				<UV> { 0.651912 0.461768 }
+			}
+			<Vertex> 5 { 0.3863306437421033 0.2192223869909451 -0.6133703187381815
+				<Normal> { 1.0793155494324491 -2.529106232437875 -1.789583699909721 }
+				<UV> { 0.629207 0.493018 }
+			}
+			<Vertex> 6 { -0.010231328612374352 0.2192223869909451 -0.7422211191316289
+				<Normal> { -0.17870255450173 -2.5291054502246886 -2.082211021676151 }
+				<UV> { 0.592471 0.504954 }
+			}
+			<Vertex> 7 { -0.4067959806581182 0.2192223869909451 -0.6133685098701888
+				<Normal> { -1.3684694535463189 -2.529107405757654 -1.5794990334923813 }
+				<UV> { 0.555734 0.493018 }
+			}
+			<Vertex> 8 { -0.6518838560487342 0.2192223869909451 -0.27602870907057614
+				<Normal> { -2.035522867688357 -2.5291066235444677 -0.4734745703813598 }
+				<UV> { 0.53303 0.461768 }
+			}
+			<Vertex> 9 { -0.6518829271705758 0.2192223869909451 0.140943070702509
+				<Normal> { -1.9250767124606556 -2.529104668011503 0.813400172420687 }
+				<UV> { 0.53303 0.423141 }
+			}
+			<Vertex> 10 { -0.40679353624191184 0.2192223869909451 0.47827848377503124
+				<Normal> { -1.0793212204780478 -2.529104668011503 1.7895829176965348 }
+				<UV> { 0.555734 0.391891 }
+			}
+			<Vertex> 11 { -0.010228292952998104 0.2192223869909451 0.6071292841684787
+				<Normal> { 0.17871189217163821 -2.52910760131095 2.0822076972701105 }
+				<UV> { 0.266251 0.652197 }
+			}
+			<Vertex> 12 { 0.6314257546046901 0.7931331793467203 0.8156120757574797
+				<Normal> { 1.8588991302830653 -1.022285950465465 2.5026660578770277 }
+				<UV> { 0.317451 0.549797 }
+			}
+			<Vertex> 13 { -0.010227354908278922 0.7931331793467203 1.0241043027930372
+				<Normal> { 0.03285302409017336 -1.0222899593080437 3.117331526097976 }
+				<UV> { 0.266251 0.549797 }
+			}
+			<Vertex> 14 { 0.38633308815830963 0.2192223869909451 0.47827667490703857
+				<Normal> { 1.3684660313636299 -2.5291040813516132 1.5795079311673723 }
+				<UV> { 0.317451 0.652197 }
+			}
+			<Vertex> 15 { 1.0279894579113937 0.7931331793467203 0.26979097446275196
+				<Normal> { 2.97490790916553 -1.0222880037750786 0.9320740859339557 }
+				<UV> { 0.368651 0.549797 }
+			}
+			<Vertex> 16 { 0.631424190178318 0.2192223869909451 0.14094018629138552
+				<Normal> { 2.035520716602095 -2.5291068190977644 0.4734831747264061 }
+				<UV> { 0.368651 0.652197 }
+			}
+			<Vertex> 17 { 1.02798799126167 0.7931331793467203 -0.4048875027050184
+				<Normal> { 2.9546073259018226 -1.022288981541561 -0.9945515064116851 }
+				<UV> { 0.419851 0.549797 }
+			}
+			<Vertex> 18 { 0.6314232613001596 0.2192223869909451 -0.27603159348169964
+				<Normal> { 1.9250739747145045 -2.529107796864247 -0.8133979235577772 }
+				<UV> { 0.419851 0.652197 }
+			}
+			<Vertex> 19 { 0.6314217457621116 0.7931331793467203 -0.950710119537794
+				<Normal> { 1.8057410954803308 -1.0222906437445813 -2.541285487297639 }
+				<UV> { 0.471051 0.549797 }
+			}
+			<Vertex> 20 { 0.3863306437421033 0.2192223869909451 -0.6133703187381815
+				<Normal> { 1.0793155494324491 -2.529106232437875 -1.789583699909721 }
+				<UV> { 0.471051 0.652197 }
+			}
+			<Vertex> 21 { -0.010232266657093534 0.7931331793467203 -1.1591929111267951
+				<Normal> { -0.03284676027364462 -1.0222861460187618 -3.117332699417755 }
+				<UV> { 0.522251 0.549797 }
+			}
+			<Vertex> 22 { -0.010231328612374352 0.2192223869909451 -0.7422211191316289
+				<Normal> { -0.17870255450173 -2.5291054502246886 -2.082211021676151 }
+				<UV> { 0.522251 0.652197 }
+			}
+			<Vertex> 23 { -0.010231328612374352 0.2192223869909451 -0.7422211191316289
+				<Normal> { -0.17870255450173 -2.5291054502246886 -2.082211021676151 }
+				<UV> { 0.0102506 0.652197 }
+			}
+			<Vertex> 24 { -0.6518853715867822 0.7931331793467203 -0.9507071862383465
+				<Normal> { -1.8588942414506526 -1.022286634902003 -2.5026691867297717 }
+				<UV> { 0.0614504 0.549797 }
+			}
+			<Vertex> 25 { -0.010232266657093534 0.7931331793467203 -1.1591929111267951
+				<Normal> { -0.03284676027364462 -1.0222861460187618 -3.117332699417755 }
+				<UV> { 0.0102506 0.549797 }
+			}
+			<Vertex> 26 { -0.4067959806581182 0.2192223869909451 -0.6133685098701888
+				<Normal> { -1.3684694535463189 -2.529107405757654 -1.5794990334923813 }
+				<UV> { 0.0614506 0.652197 }
+			}
+			<Vertex> 27 { -1.0484490260051618 0.7931331793467203 -0.40488283387006424
+				<Normal> { -2.974910255805088 -1.0222884926583198 -0.9320659704721506 }
+				<UV> { 0.11265 0.549797 }
+			}
+			<Vertex> 28 { -0.6518838560487342 0.2192223869909451 -0.27602870907057614
+				<Normal> { -2.035522867688357 -2.5291066235444677 -0.4734745703813598 }
+				<UV> { 0.112651 0.652197 }
+			}
+			<Vertex> 29 { -1.0484475593554379 0.7931331793467203 0.26979564329770606
+				<Normal> { -2.9546061525820435 -1.0222877104451338 0.994556101914153 }
+				<UV> { 0.163851 0.549797 }
+			}
+			<Vertex> 30 { -0.6518829271705758 0.2192223869909451 0.140943070702509
+				<Normal> { -1.9250767124606556 -2.529104668011503 0.813400172420687 }
+				<UV> { 0.163851 0.652197 }
+			}
+			<Vertex> 31 { -0.6518813627442037 0.7931331793467203 0.8156149601686032
+				<Normal> { -1.8057536108913073 -1.0222826260594247 2.54127981625204 }
+				<UV> { 0.215051 0.549797 }
+			}
+			<Vertex> 32 { -0.40679353624191184 0.2192223869909451 0.47827848377503124
+				<Normal> { -1.0793212204780478 -2.529104668011503 1.7895829176965348 }
+				<UV> { 0.21505 0.652197 }
+			}
+			<Vertex> 33 { 0.6314257546046901 1.502529553228163 0.8156120757574797
+				<Normal> { 1.8057629974495395 1.0222809638564043 2.541273949653145 }
+				<UV> { 0.317451 0.447397 }
+			}
+			<Vertex> 34 { -0.010227354908278922 1.502529553228163 1.0241043027930372
+				<Normal> { -0.03283765176775574 1.0222862437954099 3.117332699417755 }
+				<UV> { 0.266251 0.447397 }
+			}
+			<Vertex> 35 { 1.0279894579113937 1.502529553228163 0.26979097446275196
+				<Normal> { 2.9546118236276424 1.0222837993792036 0.9945431953965835 }
+				<UV> { 0.368651 0.447397 }
+			}
+			<Vertex> 36 { 1.02798799126167 1.502529553228163 -0.4048875027050184
+				<Normal> { 2.974905953632565 1.022285852688817 -0.9320822991724089 }
+				<UV> { 0.419851 0.447397 }
+			}
+			<Vertex> 37 { 0.6314217457621116 1.502529553228163 -0.950710119537794
+				<Normal> { 1.8588834860193448 1.0222847771456862 -2.502677791074818 }
+				<UV> { 0.471051 0.447397 }
+			}
+			<Vertex> 38 { -0.010232266657093534 1.502529553228163 -1.1591929111267951
+				<Normal> { 0.03283349320468471 1.0222815505162939 -3.117334263844127 }
+				<UV> { 0.522251 0.447397 }
+			}
+			<Vertex> 39 { -0.6518853715867822 1.502529553228163 -0.9507071862383465
+				<Normal> { -1.8057569352973477 1.0222837993792036 -2.541277078505889 }
+				<UV> { 0.0614504 0.447397 }
+			}
+			<Vertex> 40 { -0.010232266657093534 1.502529553228163 -1.1591929111267951
+				<Normal> { 0.03283349320468471 1.0222815505162939 -3.117334263844127 }
+				<UV> { 0.0102506 0.447397 }
+			}
+			<Vertex> 41 { -1.0484490260051618 1.502529553228163 -0.40488283387006424
+				<Normal> { -2.9546131925007177 1.0222845815923896 -0.9945383065641709 }
+				<UV> { 0.11265 0.447397 }
+			}
+			<Vertex> 42 { -1.0484475593554379 1.502529553228163 0.26979564329770606
+				<Normal> { -2.9749061491858617 1.0222821371761832 0.9320855258018014 }
+				<UV> { 0.163851 0.447397 }
+			}
+			<Vertex> 43 { -0.6518813627442037 1.502529553228163 0.8156149601686032
+				<Normal> { -1.8588879837451644 1.0222792038767357 2.5026768133083355 }
+				<UV> { 0.215051 0.447397 }
+			}
+			<Vertex> 44 { 0.38633308815830963 2.0764435722133308 0.47827667490703857
+				<Normal> { 1.0793254248739228 2.5291052546713924 1.7895792021839012 }
+				<UV> { 0.317451 0.344996 }
+			}
+			<Vertex> 45 { -0.010228292952998104 2.0764435722133308 0.6071292841684787
+				<Normal> { -0.1786994256489859 2.5291072102043572 2.0822092616964825 }
+				<UV> { 0.266251 0.344997 }
+			}
+			<Vertex> 46 { 0.631424190178318 2.0764435722133308 0.14094018629138552
+				<Normal> { 1.9250759302474696 2.5291072102043572 0.8133951369233019 }
+				<UV> { 0.368651 0.344997 }
+			}
+			<Vertex> 47 { 0.6314232613001596 2.0764435722133308 -0.27603159348169964
+				<Normal> { 2.03551876106913 2.5291072102043572 -0.47348777022887406 }
+				<UV> { 0.419851 0.344997 }
+			}
+			<Vertex> 48 { 0.3863306437421033 2.0764435722133308 -0.6133703187381815
+				<Normal> { 1.3684599692114383 2.5291081879708397 -1.5795061711877036 }
+				<UV> { 0.471051 0.344997 }
+			}
+			<Vertex> 49 { -0.010231328612374352 2.0764435722133308 -0.7422211191316289
+				<Normal> { 0.1786973478952105 2.529106232437875 -2.0822102394629654 }
+				<UV> { 0.522251 0.344997 }
+			}
+			<Vertex> 50 { -0.4067959806581182 2.0764435722133308 -0.6133685098701888
+				<Normal> { -1.0793261093104605 2.529106036884578 -1.7895778333108256 }
+				<UV> { 0.0614506 0.344997 }
+			}
+			<Vertex> 51 { -0.010231328612374352 2.0764435722133308 -0.7422211191316289
+				<Normal> { 0.1786973478952105 2.529106232437875 -2.0822102394629654 }
+				<UV> { 0.0102506 0.344997 }
+			}
+			<Vertex> 52 { -0.6518838560487342 2.0764435722133308 -0.27602870907057614
+				<Normal> { -1.9250810146331787 2.529105841331282 -0.8133861903599867 }
+				<UV> { 0.112651 0.344997 }
+			}
+			<Vertex> 53 { -0.6518829271705758 2.0764435722133308 0.140943070702509
+				<Normal> { -2.035520325495502 2.5291064279911715 0.4734868902390398 }
+				<UV> { 0.163851 0.344997 }
+			}
+			<Vertex> 54 { -0.40679353624191184 2.0764435722133308 0.47827848377503124
+				<Normal> { -1.368461826967755 2.5291038857983166 1.5795117444566542 }
+				<UV> { 0.21505 0.344997 }
+			}
+			<Vertex> 55 { -0.010229810782686229 2.2956561776283846 -0.06754590525949408
+				<Normal> { 1.0074350219605038E-7 3.2808398950131235 6.819488455998299E-7 }
+				<UV> { 0.239851 0.0816344 }
+			}
+			<Vertex> 56 { -0.010228292952998104 2.0764435722133308 0.6071292841684787
+				<Normal> { -0.1786994256489859 2.5291072102043572 2.0822092616964825 }
+				<UV> { 0.239851 0.0191344 }
+			}
+			<Vertex> 57 { 0.38633308815830963 2.0764435722133308 0.47827667490703857
+				<Normal> { 1.0793254248739228 2.5291052546713924 1.7895792021839012 }
+				<UV> { 0.276587 0.0310709 }
+			}
+			<Vertex> 58 { 0.631424190178318 2.0764435722133308 0.14094018629138552
+				<Normal> { 1.9250759302474696 2.5291072102043572 0.8133951369233019 }
+				<UV> { 0.299292 0.0623207 }
+			}
+			<Vertex> 59 { 0.6314232613001596 2.0764435722133308 -0.27603159348169964
+				<Normal> { 2.03551876106913 2.5291072102043572 -0.47348777022887406 }
+				<UV> { 0.299292 0.100948 }
+			}
+			<Vertex> 60 { 0.3863306437421033 2.0764435722133308 -0.6133703187381815
+				<Normal> { 1.3684599692114383 2.5291081879708397 -1.5795061711877036 }
+				<UV> { 0.276587 0.132198 }
+			}
+			<Vertex> 61 { -0.010231328612374352 2.0764435722133308 -0.7422211191316289
+				<Normal> { 0.1786973478952105 2.529106232437875 -2.0822102394629654 }
+				<UV> { 0.239851 0.144134 }
+			}
+			<Vertex> 62 { -0.4067959806581182 2.0764435722133308 -0.6133685098701888
+				<Normal> { -1.0793261093104605 2.529106036884578 -1.7895778333108256 }
+				<UV> { 0.203114 0.132198 }
+			}
+			<Vertex> 63 { -0.6518838560487342 2.0764435722133308 -0.27602870907057614
+				<Normal> { -1.9250810146331787 2.529105841331282 -0.8133861903599867 }
+				<UV> { 0.18041 0.100948 }
+			}
+			<Vertex> 64 { -0.6518829271705758 2.0764435722133308 0.140943070702509
+				<Normal> { -2.035520325495502 2.5291064279911715 0.4734868902390398 }
+				<UV> { 0.18041 0.0623207 }
+			}
+			<Vertex> 65 { -0.40679353624191184 2.0764435722133308 0.47827848377503124
+				<Normal> { -1.368461826967755 2.5291038857983166 1.5795117444566542 }
+				<UV> { 0.203114 0.0310709 }
+			}
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 2 1 0 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 1 3 0 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 3 4 0 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 4 5 0 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 5 6 0 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 6 7 0 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 7 8 0 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 8 9 0 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 9 10 0 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 10 2 0 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 13 12 11 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 12 14 11 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 12 15 14 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 15 16 14 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 15 17 16 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 17 18 16 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 17 19 18 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 19 20 18 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 19 21 20 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 21 22 20 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 25 24 23 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 24 26 23 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 24 27 26 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 27 28 26 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 27 29 28 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 29 30 28 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 29 31 30 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 31 32 30 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 31 13 32 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 13 11 32 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 34 33 13 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 33 12 13 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 33 35 12 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 35 15 12 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 35 36 15 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 36 17 15 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 36 37 17 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 37 19 17 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 37 38 19 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 38 21 19 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 40 39 25 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 39 24 25 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 39 41 24 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 41 27 24 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 41 42 27 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 42 29 27 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 42 43 29 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 43 31 29 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 43 34 31 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 34 13 31 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 45 44 34 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 44 33 34 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 44 46 33 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 46 35 33 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 46 47 35 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 47 36 35 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 47 48 36 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 48 37 36 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 48 49 37 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 49 38 37 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 51 50 40 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 50 39 40 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 50 52 39 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 52 41 39 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 52 53 41 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 53 42 41 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 53 54 42 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 54 43 42 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 54 45 43 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 45 34 43 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 57 56 55 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 58 57 55 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 59 58 55 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 60 59 55 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 61 60 55 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 62 61 55 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 63 62 55 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 64 63 55 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 65 64 55 <Ref> { Snowman.Bottom.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap1 }
+			<RGBA> { 1.0 1.0 1.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 56 65 55 <Ref> { Snowman.Bottom.verts } }
+		}
+	}
+
+}
+
